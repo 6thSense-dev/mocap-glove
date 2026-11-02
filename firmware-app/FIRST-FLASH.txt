@@ -1,0 +1,3 @@
+Diagnostics 0.2 firmware. Read ../START-HERE.txt for flashing and bench testing.
+Coil bursts are implemented but require explicit commands; no outputs enable at connection.
+Hardware verification is pending.

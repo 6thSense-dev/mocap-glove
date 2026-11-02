@@ -1,0 +1,6 @@
+Build with make PREFIX=/absolute/path/to/arm-none-eabi-
+Outputs build/glove-v6-diagnostics.{bin,hex,elf,map}.
+Firmware 0.2.0-diagnostics, transmitter burst tests enabled.
+Software checks: python3 -m unittest discover -s tests -v
+Native mocked-peripheral source test: compile src/source.c plus tests/source_mock/test_source.c with tests/source_mock and include in include path.
+See ../START-HERE.txt for hardware limitations.

@@ -1,0 +1,9 @@
+24 October 2026
+ARM GNU 13.2.1 compilation: passed, no warnings in final build.
+Flash text 58432 bytes; initialized RAM 492 bytes; static RAM 48584 bytes.
+18 panel tests passed (simulated USB replies and synthetic tone signals).
+8 firmware/host tests passed, including actual source.c with mocked peripherals.
+Source guard cases: parameters, timeout, cooldown, invalid zero, ADC failure, DMA stall, selected/unselected overcurrent, stale monitor, USB stop.
+Real USB UI connection to existing 0.1.0-bench: passed, sensors remained off.
+New 0.2 firmware flash: PENDING. Hardware current/IMU/coil/receiver tests: PENDING.
+Scope waveform, shutdown latency, temperatures, calibrated tracking accuracy: NOT VERIFIED.

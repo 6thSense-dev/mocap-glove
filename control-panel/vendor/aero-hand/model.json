@@ -1,0 +1,884 @@
+{
+  "links": [
+    {
+      "name": "right_base_link",
+      "mesh": "right_base_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_t_link",
+      "mesh": "right_t_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_thumb_mcp_link",
+      "mesh": "right_thumb_mcp_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_thumb_proximal_link",
+      "mesh": "right_thumb_proximal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_thumb_distal_link",
+      "mesh": "right_thumb_distal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_thumb_tip_link",
+      "mesh": "right_thumb_tip_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_index_proximal_link",
+      "mesh": "right_index_proximal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_index_middle_link",
+      "mesh": "right_index_middle_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_index_distal_link",
+      "mesh": "right_index_distal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_index_tip_link",
+      "mesh": "right_index_tip_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_middle_proximal_link",
+      "mesh": "right_middle_proximal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_middle_middle_link",
+      "mesh": "right_middle_middle_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_middle_distal_link",
+      "mesh": "right_middle_distal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_middle_tip_link",
+      "mesh": "right_middle_tip_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_ring_proximal_link",
+      "mesh": "right_ring_proximal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_ring_middle_link",
+      "mesh": "right_ring_middle_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_ring_distal_link",
+      "mesh": "right_ring_distal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_ring_tip_link",
+      "mesh": "right_ring_tip_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_pinky_proximal_link",
+      "mesh": "right_pinky_proximal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_pinky_middle_link",
+      "mesh": "right_pinky_middle_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_pinky_distal_link",
+      "mesh": "right_pinky_distal_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "right_pinky_tip_link",
+      "mesh": "right_pinky_tip_link.STL",
+      "visual": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "joints": [
+    {
+      "name": "right_thumb_cmc_abd",
+      "type": "revolute",
+      "parent": "right_base_link",
+      "child": "right_t_link",
+      "origin": {
+        "xyz": [
+          0.028112,
+          -0.0145,
+          0.025363
+        ],
+        "rpy": [
+          -1.2217,
+          -0.0,
+          -1.57
+        ]
+      },
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.7453
+    },
+    {
+      "name": "right_thumb_cmc_flex",
+      "type": "revolute",
+      "parent": "right_t_link",
+      "child": "right_thumb_mcp_link",
+      "origin": {
+        "xyz": [
+          -0.003475,
+          0.003808,
+          0.019656
+        ],
+        "rpy": [
+          0.1325,
+          -0.17906,
+          0.26195
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.9599
+    },
+    {
+      "name": "right_thumb_mcp",
+      "type": "revolute",
+      "parent": "right_thumb_mcp_link",
+      "child": "right_thumb_proximal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0033822,
+          0.035848
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_thumb_ip",
+      "type": "revolute",
+      "parent": "right_thumb_proximal_link",
+      "child": "right_thumb_distal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.002206,
+          0.029919
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_thumb_tip",
+      "type": "fixed",
+      "parent": "right_thumb_distal_link",
+      "child": "right_thumb_tip_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0059474,
+          0.031823
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "name": "right_index_mcp_flex",
+      "type": "revolute",
+      "parent": "right_base_link",
+      "child": "right_index_proximal_link",
+      "origin": {
+        "xyz": [
+          0.030626,
+          -0.0011782,
+          0.10542
+        ],
+        "rpy": [
+          0.0,
+          0.05236,
+          -0.034907
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_index_pip",
+      "type": "revolute",
+      "parent": "right_index_proximal_link",
+      "child": "right_index_middle_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          -0.0014554,
+          0.043
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_index_dip",
+      "type": "revolute",
+      "parent": "right_index_middle_link",
+      "child": "right_index_distal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.022
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_index_tip",
+      "type": "fixed",
+      "parent": "right_index_distal_link",
+      "child": "right_index_tip_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.003512,
+          0.026776
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "name": "right_middle_mcp_flex",
+      "type": "revolute",
+      "parent": "right_base_link",
+      "child": "right_middle_proximal_link",
+      "origin": {
+        "xyz": [
+          0.0075,
+          0.0,
+          0.106
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_middle_pip",
+      "type": "revolute",
+      "parent": "right_middle_proximal_link",
+      "child": "right_middle_middle_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          -0.0014554,
+          0.043
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_middle_dip",
+      "type": "revolute",
+      "parent": "right_middle_middle_link",
+      "child": "right_middle_distal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.022
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_middle_tip",
+      "type": "fixed",
+      "parent": "right_middle_distal_link",
+      "child": "right_middle_tip_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.003512,
+          0.026776
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "name": "right_ring_mcp_flex",
+      "type": "revolute",
+      "parent": "right_base_link",
+      "child": "right_ring_proximal_link",
+      "origin": {
+        "xyz": [
+          -0.015626,
+          -0.0011782,
+          0.10542
+        ],
+        "rpy": [
+          0.0,
+          -0.05236,
+          0.034907
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_ring_pip",
+      "type": "revolute",
+      "parent": "right_ring_proximal_link",
+      "child": "right_ring_middle_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          -0.0014554,
+          0.043
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_ring_dip",
+      "type": "revolute",
+      "parent": "right_ring_middle_link",
+      "child": "right_ring_distal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.022
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_ring_tip",
+      "type": "fixed",
+      "parent": "right_ring_distal_link",
+      "child": "right_ring_tip_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.003512,
+          0.026776
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "name": "right_pinky_mcp_flex",
+      "type": "revolute",
+      "parent": "right_base_link",
+      "child": "right_pinky_proximal_link",
+      "origin": {
+        "xyz": [
+          -0.038266,
+          -0.0036416,
+          0.092393
+        ],
+        "rpy": [
+          0.0,
+          -0.10472,
+          0.069946
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_pinky_pip",
+      "type": "revolute",
+      "parent": "right_pinky_proximal_link",
+      "child": "right_pinky_middle_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          -0.0014554,
+          0.043
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_pinky_dip",
+      "type": "revolute",
+      "parent": "right_pinky_middle_link",
+      "child": "right_pinky_distal_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.0,
+          0.022
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.5708
+    },
+    {
+      "name": "right_pinky_tip",
+      "type": "fixed",
+      "parent": "right_pinky_distal_link",
+      "child": "right_pinky_tip_link",
+      "origin": {
+        "xyz": [
+          0.0,
+          0.003512,
+          0.026776
+        ],
+        "rpy": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0,
+      "upper": 0
+    }
+  ],
+  "commit": "7bb2f23485a7d440960c21046da642de132b7745"
+}

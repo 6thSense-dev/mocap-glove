@@ -1,0 +1,142 @@
+{
+  "repository": "https://github.com/Chestnut-Robotics/aero-hand-open",
+  "commit": "7bb2f23485a7d440960c21046da642de132b7745",
+  "license": "CC BY-NC-SA 4.0",
+  "copyright": "Chestnut Robotics, Inc. (formerly TetherIA)",
+  "assets": [
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_base_link.STL",
+      "file": "right_base_link.STL",
+      "sha256": "6a3fe76d6111442e37fd829ece991bcfc2572390f5fed6adcb1a98945dcc2888",
+      "bytes": 1267484
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_index_distal_link.STL",
+      "file": "right_index_distal_link.STL",
+      "sha256": "d22f040a218f1056000cd44294ad3009d368fdfe2aa1b61c1ebdf082132b7f8a",
+      "bytes": 169084
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_index_middle_link.STL",
+      "file": "right_index_middle_link.STL",
+      "sha256": "d2e5e69e67991102ab5baba1834645387d0dc9bb3a2ef55926f8adbc1df7a188",
+      "bytes": 96784
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_index_proximal_link.STL",
+      "file": "right_index_proximal_link.STL",
+      "sha256": "fd05f3ab90593aa9c4d5f2528cb5760024779565b0f47d4a7cfdc450159e5215",
+      "bytes": 162684
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_index_tip_link.STL",
+      "file": "right_index_tip_link.STL",
+      "sha256": "2155213401e4b82bfa56e8cdde6dc297205533d2353d09015fa0295ee8421a17",
+      "bytes": 96584
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_middle_distal_link.STL",
+      "file": "right_middle_distal_link.STL",
+      "sha256": "fbb2e95f6eb35883d4f4d36688985e67df305d4e9591c7765631bae86db4172b",
+      "bytes": 169684
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_middle_middle_link.STL",
+      "file": "right_middle_middle_link.STL",
+      "sha256": "882ea929c94ffbd0e3b1f17e4e89bd8a7aef6ff5f074aa9c6a024bf8da25a1e0",
+      "bytes": 97484
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_middle_proximal_link.STL",
+      "file": "right_middle_proximal_link.STL",
+      "sha256": "b91f9e88be41d01cc6d9626090d73a6fc0cddd0d7a60993b49b920bac4354d0e",
+      "bytes": 161784
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_middle_tip_link.STL",
+      "file": "right_middle_tip_link.STL",
+      "sha256": "f85db3e76198c88cd6421d2b5cbc0da50a8b940b2256629d3fa75d19b0620fbd",
+      "bytes": 97184
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_pinky_distal_link.STL",
+      "file": "right_pinky_distal_link.STL",
+      "sha256": "4ec59b92631e63cc0d0fddcf0d486a95c23d74d5adae728ae35cc89410372997",
+      "bytes": 167084
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_pinky_middle_link.STL",
+      "file": "right_pinky_middle_link.STL",
+      "sha256": "eea03d392749eb12b0b2d86e230c2203f53a381ae8baad3fd35aa8448ebed537",
+      "bytes": 96784
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_pinky_proximal_link.STL",
+      "file": "right_pinky_proximal_link.STL",
+      "sha256": "44b946897054b018a0a04f18ac59f7ed0ece5a3b421645c1b7040906a7e7ffa9",
+      "bytes": 162984
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_pinky_tip_link.STL",
+      "file": "right_pinky_tip_link.STL",
+      "sha256": "e213890528717909dfba1e0befaaf545df764e727527c7de833ec615f664f335",
+      "bytes": 95784
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_ring_distal_link.STL",
+      "file": "right_ring_distal_link.STL",
+      "sha256": "1fc45d5d61d327c77c2d8e4de2a61dd1550338c260572f4a65d451b0a4632cd1",
+      "bytes": 167984
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_ring_middle_link.STL",
+      "file": "right_ring_middle_link.STL",
+      "sha256": "0c0dc22a931e938cefd82bbcabdfeefb899ca5833aff6d5494a81c7942077f4c",
+      "bytes": 96884
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_ring_proximal_link.STL",
+      "file": "right_ring_proximal_link.STL",
+      "sha256": "b40a1232a42f271a9900c762294b0d8d0fae98557b269105c88e34ed3ba06fea",
+      "bytes": 162584
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_ring_tip_link.STL",
+      "file": "right_ring_tip_link.STL",
+      "sha256": "136834b83ecb5031361c9a738c9837fca1636d2215273c2025690a270e33c115",
+      "bytes": 97384
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_t_link.STL",
+      "file": "right_t_link.STL",
+      "sha256": "6a5ae81623b0ae4ad189a2273bd21284f334f578d200e3a7f52c00f19e7b7335",
+      "bytes": 152584
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_thumb_distal_link.STL",
+      "file": "right_thumb_distal_link.STL",
+      "sha256": "312656c8079925f006f81d82e9ec3cf7f5b716fe246c3757c979804cb592632c",
+      "bytes": 159884
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_thumb_mcp_link.STL",
+      "file": "right_thumb_mcp_link.STL",
+      "sha256": "3f356ec4295db757c316c5fe032e51db8e9b46b6868ced158d7c8c1abba2a907",
+      "bytes": 190384
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_thumb_proximal_link.STL",
+      "file": "right_thumb_proximal_link.STL",
+      "sha256": "0c60024747fc5218cc1b29c17cf54c8bbbfcb0d5aca5d2fc30bb82f706d7a5fa",
+      "bytes": 101884
+    },
+    {
+      "source": "ros2/src/aero_hand_open_description/meshes/right_thumb_tip_link.STL",
+      "file": "right_thumb_tip_link.STL",
+      "sha256": "fa0cb0aa6aa9766578853c4b31642a72bae95ba9f7e24a924212e980a921abf3",
+      "bytes": 94684
+    }
+  ],
+  "changes": "Original STL and URDF unmodified; JSON joint manifest extracted for local browser rendering.",
+  "intended_use": "User explicitly confirmed non-commercial use for this integration"
+}

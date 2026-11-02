@@ -1,0 +1,6 @@
+{
+  ".": "140db648b016ba49b05ca790b5b66e3477807839",
+  "Drivers/STM32G4xx_HAL_Driver": "a6001282dfacfff57e9710250f15e4333b578865",
+  "Drivers/CMSIS/Device/ST/STM32G4xx": "25664ddc3a7624ae9627ae8c4c672073dc5b2539",
+  "Middlewares/ST/STM32_USB_Device_Library": "60d163f271987fd322e22f63c095836e1dc703f6"
+}

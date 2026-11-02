@@ -1,0 +1,15 @@
+(function(root){
+function parse(reply){const m=/^IMU accel=(-?\d+),(-?\d+),(-?\d+) gyro=(-?\d+),(-?\d+),(-?\d+) temp_raw=(-?\d+) time=(\d+)$/.exec(reply);if(!m)throw Error('Invalid IMU reply');const a=m.slice(1,4).map(Number).map(x=>x/4096),g=m.slice(4,7).map(Number).map(x=>x*2000/32768),norm=Math.hypot(...a);return {a,g,norm,roll:Math.atan2(a[1],a[2])*180/Math.PI,pitch:Math.atan2(-a[0],Math.hypot(a[1],a[2]))*180/Math.PI,temp:Number(m[7])/512+23,time:Number(m[8]),tiltValid:norm>.8&&norm<1.2};}
+if(typeof module!=='undefined'){module.exports={parse};return;}root.ImuView={parse};
+let last=0,reading=null,error='Start live view to read the IMU.';
+function draw(){const canvas=document.getElementById('imuCanvas');if(!canvas)return;const rect=canvas.getBoundingClientRect(),dpr=devicePixelRatio||1;canvas.width=rect.width*dpr;canvas.height=rect.height*dpr;const c=canvas.getContext('2d');c.scale(dpr,dpr);const w=rect.width,h=rect.height;c.clearRect(0,0,w,h);const stale=Date.now()-last>1200,valid=reading&&!stale&&reading.tiltValid;document.getElementById('imuStatus').textContent=error||(stale?'Stale · last reading held':reading.tiltValid?'Live tilt · sensor axes':'Motion detected · tilt unreliable');c.globalAlpha=valid?1:.25;
+const roll=(reading?.roll||0)*Math.PI/180,pitch=(reading?.pitch||0)*Math.PI/180;
+function project(x,y,z){const y1=y*Math.cos(roll)-z*Math.sin(roll),z1=y*Math.sin(roll)+z*Math.cos(roll);const x2=x*Math.cos(pitch)+z1*Math.sin(pitch),z2=-x*Math.sin(pitch)+z1*Math.cos(pitch);return [w/2+(x2-y1*.28)*w/270,h*.57+(y1*.5-z2*.8)*w/270];}
+function line(a,b,color){c.strokeStyle=color;c.beginPath();c.moveTo(...a);c.lineTo(...b);c.stroke();}
+c.lineWidth=1;c.strokeStyle='#294044';for(let n=-80;n<=80;n+=20){line([w/2-100,h*.57+n*.4],[w/2+100,h*.57+n*.4],'#294044');}
+const corners=[[-70,-45,0],[70,-45,0],[70,45,0],[-70,45,0]].map(p=>project(...p));c.beginPath();corners.forEach((p,i)=>i?c.lineTo(...p):c.moveTo(...p));c.closePath();c.fillStyle='#235747';c.fill();c.strokeStyle='#91f1ca';c.lineWidth=2;c.stroke();const chip=[[-15,-15,2],[15,-15,2],[15,15,2],[-15,15,2]].map(p=>project(...p));c.beginPath();chip.forEach((p,i)=>i?c.lineTo(...p):c.moveTo(...p));c.closePath();c.fillStyle='#0a1919';c.fill();
+c.font='12px sans-serif';for(const [p,color,label] of [[[95,0,0],'#ffb1a7','X'],[[0,75,0],'#91f1ca','Y'],[[0,0,75],'#8dbdff','Z']]){const end=project(...p);line(project(0,0,0),end,color);c.fillStyle=color;c.fillText(label,end[0]+4,end[1]);}c.globalAlpha=1;
+}
+root.ImuView.update=reply=>{reading=parse(reply);last=Date.now();error='';for(const [id,text] of Object.entries({imuRoll:reading.roll.toFixed(1)+'°',imuPitch:reading.pitch.toFixed(1)+'°',imuAccel:reading.a.map(x=>x.toFixed(3)).join(' / ')+' g',imuGyro:reading.g.map(x=>x.toFixed(1)).join(' / ')+' °/s',imuTemp:reading.temp.toFixed(1)+' °C'}))document.getElementById(id).textContent=text;draw();};
+root.ImuView.error=msg=>{error=msg;draw();};setInterval(draw,300);window.addEventListener('resize',draw);
+})(typeof window!=='undefined'?window:this);

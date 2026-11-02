@@ -1,0 +1,3 @@
+a2c24bdcac1c302b2e966770fc0229991e1d1d0c602d7846cd8754fedadce2fc  build/glove-v6-diagnostics.bin
+11fa95ff33c6bbf8e9ecfa564184ed92841065fd06d80ed801e75d9c0ea4d265  build/glove-v6-diagnostics.hex
+3469e379d6673a5b4dcceb548d8fcebe2e5ccf412dabf6a4d93830f1599b22c5  build/glove-v6-diagnostics.elf

@@ -1,0 +1,85 @@
+6thSense V6 diagnostics 0.2 — 24 October 2026
+
+STATUS
+Built and software-tested. Not yet flashed or electrically validated on your hub.
+This release provides component tests, not calibrated motion tracking.
+Keep the original firmware-app folder as your 0.1 fallback.
+
+START
+Open control-panel/Start-control-panel.command and http://127.0.0.1:8775.
+Only one panel/server should own the hub. Close the old panel before flashing.
+The panel accepts the old 0.1.0-bench image for existing tests, but enables the
+new controls only for the exact 0.2.0-diagnostics firmware identity.
+Connecting USB/panel does not enable the sensor rail or transmitter.
+
+FLASH
+Disconnect USB and unplug coil harness and finger flexes. Reconnect USB.
+Hold BOOT, tap/release RESET, release BOOT.
+Run firmware-app/host/Flash-hub-Mac.command. It backs up all main flash,
+programs only application flash, and verifies byte-for-byte readback.
+The new binary is firmware-app/build/glove-v6-diagnostics.bin.
+Do not change option bytes. After flashing release BOOT and tap RESET.
+Connect panel: expect firmware 0.2.0-diagnostics and sensor power Off.
+
+TEST ORDER
+1. Hub alone: connect, enable sensor rail, read current sensors.
+   Expect a valid supply reading near 3.3 V and three raw current channels
+   near 2048/4095 (half the rail). Record actual values, not a guessed pass.
+2. Check IMU, Enable IMU, Read IMU. BMI323 identity 0x43; accelerometer
+   +/-8 g and gyro +/-2000 deg/s, 100 Hz. Raw accelerometer /4096 gives g;
+   raw gyro *2000/32768 gives deg/s. Temperature = raw/512 + 23 C.
+   Move board and verify changing readings. Off disables accel and gyro.
+3. Power off/unplug USB, connect one finger at J1, reconnect. Power on,
+   Check fingertips, Read selected, Capture selected. Repeat each port.
+   CRC detects frame corruption, not physical correctness or sample continuity.
+4. With USB unplugged, measure resistance of your wound coil. Check no
+   short to neighbouring pins, then connect only that coil to J9:
+   X pins 1-2, Y pins 3-4, Z pins 5-6. Confirm physical pin 1 on the PCB;
+   do not infer it from left/right in a rotated photograph.
+5. Connect grounded oscilloscope ground clips ONLY to board GND (J7 GND
+   pins 3/6, after confirming orientation). Both coil terminals are driven.
+   Never ground a coil terminal with a scope clip. Use two channels with
+   both ground clips on GND, then CH1-CH2 across the coil, or a differential probe.
+   Use insulated fine probes to avoid bridging adjacent pads.
+6. Power on, read zero current, select the connected axis, 10 ms burst.
+   Select single-shot scope trigger, confirm bench checkbox, Run coil burst.
+   Frequencies: X 4.5 kHz, Y 5.625 kHz, Z 6.75 kHz. Non-selected inputs
+   are both low, so those DRV8837 outputs coast. All channels share nSLEEP.
+   Source current monitor voltage is near rail/2 + current[A]*4 V/A.
+   Compare actual waveform/current against UI sampled min/max. Zero amplitude
+   may indicate an open coil, failed driver, wrong connection or bad measurement.
+7. After passing single-axis tests, Capture with coils collects 256 samples
+   per selected port with source active. Tone amplitudes are raw ADC counts,
+   NOT millimetres. Repeat no-coil capture for noise comparison. Check clipping.
+
+STOP / LIMITATIONS
+Stop all outputs sends an out-of-band ! byte, then requests sensor power off.
+USB suspend, DTR drop, error and software timeout disable bridge sleep enable.
+A separate independent watchdog resets a stalled MCU (nominally about 1 s;
+LSI tolerance means this is not an exact maximum). GPIO reset/pulldown disables TX.
+Burst request 1-100 ms, with 2 s cooldown; transmitter capture uses 50 ms ceiling.
+A SysTick cutoff runs independently of the normal command loop; these timing
+paths are software-tested, not measured on your hardware.
+Current monitoring uses PA0 ADC1_IN1, PA1 ADC1_IN2, PA4 ADC2_IN17,
+INA240A1 gain20 and 0.2 ohm shunts. It calibrates MCU ADCs and measures VDDA
+against factory VREFINT calibration. Baseline is measured before each burst.
+Selected channel guard 125 mA; other channels 25 mA. Guard is sampled and
+software-based, NOT a certified hardware peak current limiter. A delayed
+monitor (>5 ms), DMA error, ADC error or implausible baseline stops the burst.
+47 ohm 1 W series resistors limit load current; at 5.25 V and 1% low resistance,
+ideal short-circuit bound is about 113 mA and resistor power about 0.59 W/axis.
+Coil resistance and driver losses lower current. No active temperature sensing.
+Do not bypass the series resistors or apply an external higher voltage.
+
+Physical checks still required: actual waveform timing, current calibration,
+polarity, receiver response, ADC continuity under DMA load, USB disconnect
+shutdown and temperature. This release has no continuous 100 Hz pose solver,
+full geometric calibration or verified 1 mm accuracy. Do not call it a complete
+motion tracking product merely because diagnostics pass.
+
+SOURCE REFERENCES
+Board: ../../hand-hub/verification/netlist.xml and fabrication/BOM.csv
+TI DRV8837: https://www.ti.com/lit/ds/symlink/drv8837.pdf
+TI INA240: https://www.ti.com/lit/ds/symlink/ina240.pdf
+STM32G474: https://www.st.com/resource/en/datasheet/stm32g474re.pdf
+BMI323: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf

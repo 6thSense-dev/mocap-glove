@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+build/
+flash-records/
+backups/
+captures/
+calibrations/
+bench-results/
