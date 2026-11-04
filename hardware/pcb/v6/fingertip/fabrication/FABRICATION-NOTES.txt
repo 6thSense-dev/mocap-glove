@@ -1,0 +1,6 @@
+V6 ENGINEERING PROTOTYPE CANDIDATE — FACTORY DFM / ASSEMBLY REVIEW REQUIRED
+Local files only. Existing V5 JLC checkout is obsolete. No programming or functional testing requested from assembler.
+BOM/CPL are native coordinates; supplier must verify pin 1 and bottom-side rotation, particularly new U14. Stock is not reserved.
+18 x 154 mm, two-layer PI flex, nominal 0.11 mm, 12 um copper, ENIG, BLACK coverlay. Five per glove.
+Head backside FR4 stiffener 0.40 mm; tail front PI stiffener nominal 0.225 mm, adjust finished tail to 0.30 +/- 0.03 mm. Stiffeners only at components/contacts, flex between them. Bottom contacts, 0.5 mm pitch. Stiffener Gerbers are mechanical instructions, not copper. Factory must confirm coverlay/adhesive/panelization and bend construction.
+L1 TDK B82453C0270A000 omitted from SMT BOM/CPL: user supplies and fits receiver package. J1 is integral gold-contact tail, not a purchased part. C8 is Samsung CL05B224KO5NNNC / C16772; all component stock and assembly matching must be reconfirmed for V6.

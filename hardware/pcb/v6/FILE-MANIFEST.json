@@ -1,0 +1,510 @@
+[
+  {
+    "path": "hand-hub/Glove.kicad_sym",
+    "sha256": "247df6487ea747d4fda3413055c0dd29eb70b2b4b1c60a888218b59e8f4e37f7"
+  },
+  {
+    "path": "hand-hub/Glove.pretty/ASE_Envelope.kicad_mod",
+    "sha256": "76916c2624918bbd64d6d5f158e1b0506594ec562c15fc1feb8570e18b6dec3d"
+  },
+  {
+    "path": "hand-hub/Glove.pretty/CDCLVC1106_TSSOP14.kicad_mod",
+    "sha256": "2271b5be3b76c5c31c4ef33b739c236dc7c1f2b70c21e5e06e42545546c6cb27"
+  },
+  {
+    "path": "hand-hub/Glove.pretty/SJK_3N_3225.kicad_mod",
+    "sha256": "83ae29aa933a3be9c7043b7d229c2fdd58cac3024ba08d248bcc1ad952bff142"
+  },
+  {
+    "path": "hand-hub/Glove.pretty/USB_C_HRO_Envelope.kicad_mod",
+    "sha256": "5a82c5bdd2a17744d55fea49d7821cfb1629f36b568be30a022ffc99fe058c7b"
+  },
+  {
+    "path": "hand-hub/Glove.pretty/XUNPU_PH127_2x03_SMD.kicad_mod",
+    "sha256": "09feb17911a266de2d04225699e325652912e2f19e78688e7cbadaab7850269f"
+  },
+  {
+    "path": "hand-hub/connectivity.json",
+    "sha256": "543cf034b3ee70874e44af3b819e5333d3604febc6b7764b78c5ed85fe181e4d"
+  },
+  {
+    "path": "hand-hub/controller.kicad_sch",
+    "sha256": "e8659cb3f2213f68d85c6d5187bc34990b6d804efbe6ceb9af8659b1605ca2f3"
+  },
+  {
+    "path": "hand-hub/fabrication/BOM.csv",
+    "sha256": "f27a5cb2893a950ff757ffb880ac8d9024ca8f7a473cef1642078e3be04cb5ab"
+  },
+  {
+    "path": "hand-hub/fabrication/CPL.csv",
+    "sha256": "2aee5849bdfadeb20da54f509182c80ae1f231396177b872a68bbc1f26b741ca"
+  },
+  {
+    "path": "hand-hub/fabrication/FABRICATION-NOTES.txt",
+    "sha256": "e950924caaf81444e98a1694e7854d5057e1d79165b9e96df0dcae2c176f32cd"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-B_Cu.gbl",
+    "sha256": "0887f09c4023e1187e26a45cd9c1515d5970e12578b9a5d62b206baf04b378db"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-B_Mask.gbs",
+    "sha256": "a247db8bf5b6517ae95326b85e9aaddfd7fe07df5e6e6f5c79f6e7738e3113e0"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-B_Paste.gbp",
+    "sha256": "40612ed42bacffe25e66c405aa248ef206470f2125536b4aa1a4403811e74d8b"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-B_Silkscreen.gbo",
+    "sha256": "e365928d2ef4059a48eb38731f390a1efc62952aa93fc6670c54096a4c3f4e70"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-Edge_Cuts.gm1",
+    "sha256": "b4c30d808b1139cb17cb48d71983faf46410d11690b6480e08d46f64b67a10aa"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-F_Cu.gtl",
+    "sha256": "13f523c720708f807bf5764847a60f92a91c69f222d60ca347bf553f0b8c9c0f"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-F_Mask.gts",
+    "sha256": "7a6602a346bd01451822d97e5868da6be92851b524ca6106001072ccc1b9dce6"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-F_Paste.gtp",
+    "sha256": "9158d8296737edaf630130d63113518ed99ada3ba9ab57d8f7500ee611986420"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-F_Silkscreen.gto",
+    "sha256": "38ac28cd30a4c60018e68dd80486083a783b2dcbd7c95edddd3abca4ae2e8a86"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-In1_Cu.g1",
+    "sha256": "2913b2f05bc0e3bb019bb802aafa90c52db55eaff19e37db96591df5ba1edc80"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-In2_Cu.g2",
+    "sha256": "2d9fb2c14dd3d78e71c7977342721472a711fd410caea89af739f0af3cba8520"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub-job.gbrjob",
+    "sha256": "c2330009f131f558c2c573cafd6f02e53a38c0c8e7546955c203a3b1b89a78f0"
+  },
+  {
+    "path": "hand-hub/fabrication/gerbers/hand-hub.drl",
+    "sha256": "ed6f461dfa2310aee454b78d20c72275ffae291856f71e3f52e10c8d61c9a9c2"
+  },
+  {
+    "path": "hand-hub/fabrication/hand-hub-V6-Gerbers-prototype.zip",
+    "sha256": "d2cc8b938e0c2464bca80741f607ef0af509443286aa708cd5b5cf0237b617ee"
+  },
+  {
+    "path": "hand-hub/finger-interfaces.kicad_sch",
+    "sha256": "1687d1b6717765bb9e752a83813e9c32e343ad7319eb89b77b06121e097cca2c"
+  },
+  {
+    "path": "hand-hub/fp-lib-table",
+    "sha256": "2cb202a9349f9a13cc67262fbb8bd86e4e53b7c83bf9e4ed560da1aee3f039cb"
+  },
+  {
+    "path": "hand-hub/hand-hub.kicad_pcb",
+    "sha256": "2fb720397a298e8a57aa2bb0e81e7ebd3849934900efd1c10a0af3b2f7a1efda"
+  },
+  {
+    "path": "hand-hub/hand-hub.kicad_pro",
+    "sha256": "ff139f56809cbfbaa6084c340962fa7ca1fd52c943f212eb84704b6e66631c15"
+  },
+  {
+    "path": "hand-hub/hand-hub.kicad_sch",
+    "sha256": "5b4fe6043b8e10e1cb60b3f12e8919e25bf982392926031429a0d809d0d96320"
+  },
+  {
+    "path": "hand-hub/hand-imu.kicad_sch",
+    "sha256": "d63e6418f8e67bac397e09577b03cf84f2445b65141515a93c6c7fa52c708ba1"
+  },
+  {
+    "path": "hand-hub/magnetic-source-drivers.kicad_sch",
+    "sha256": "c0392c49d4db663c5802069f3e36c1a293fda02b3ea263fe01a42562c04ddc78"
+  },
+  {
+    "path": "hand-hub/models/ase-envelope.wrl",
+    "sha256": "0af10cc048e19ca6df30674658179518cc176a6c0475565154002ecb0ba85483"
+  },
+  {
+    "path": "hand-hub/models/usb-c-envelope.wrl",
+    "sha256": "a13c5481e7d8b97ee52e00379c9f6801cb34b278819f869d7d56ef557ec7e38d"
+  },
+  {
+    "path": "hand-hub/power-usb.kicad_sch",
+    "sha256": "26259bf2322171a619849991bc47d655f770d8ada3115c4fd08581d699cb7f99"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-Controller.svg",
+    "sha256": "4431a662205af43607e9da7007d9d094976ea5fa65fee6bf03d6c303bc5a1fbe"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-Finger Interfaces.svg",
+    "sha256": "886bef4eec002b00ea0d823d3108446fc4cebffa074fc6e501a018216da5f59c"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-Hand IMU.svg",
+    "sha256": "06842809cdc161cf8ce14f98c91f48cd80a69b66e4b3ddaef18d42ab84cea7f6"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-Magnetic Source Drivers.svg",
+    "sha256": "90e5cbef97c725efa2fb720f1e3ac0896b40e9b9eb2cf15910bf7c60bf3b27e5"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-Power USB.svg",
+    "sha256": "2b8e6e3ead1c58810f1b7e68000504405c7eee1b16078cee3974f783244d8614"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub-USB recovery.svg",
+    "sha256": "611f09ef69e28c929162f5cd79be45c7704efc3851f6f5f44b8c330029f8ac61"
+  },
+  {
+    "path": "hand-hub/schematic-views/hand-hub.svg",
+    "sha256": "59e0a83c3fef1673a7f44b0e821b8c4aadc9d96de7ff061ffa00901d4f1496d2"
+  },
+  {
+    "path": "hand-hub/sym-lib-table",
+    "sha256": "8dad2145c691359193663f7ff8541e292137714281a2ba5ec947e42e32fd0e1f"
+  },
+  {
+    "path": "hand-hub/usb-recovery.kicad_sch",
+    "sha256": "7f796a374f53a2230c0db1f6a0ab004045ac67df6374bf2f3cf200122321de65"
+  },
+  {
+    "path": "hand-hub/verification/drc.rpt",
+    "sha256": "a49695279a1ee44efd0354c965427ef5141c1da3d18be1954a72977a725be0b7"
+  },
+  {
+    "path": "hand-hub/verification/erc.rpt",
+    "sha256": "afb3530c269dcc7c076a2e445d286a8c4ecfe2b54fdae633bd4440863a16d141"
+  },
+  {
+    "path": "hand-hub/verification/netlist.xml",
+    "sha256": "d6d08a451de0b75edc8729109ec905247b532eead6fe9acfb5196ae7397e190b"
+  },
+  {
+    "path": "hand-hub/views/3d-bottom.png",
+    "sha256": "248b7ab36c2dd2e0053220e1afa2e53e0c4ab91acd0b3055b6c99245673ada46"
+  },
+  {
+    "path": "hand-hub/views/3d-top.png",
+    "sha256": "b3a1b8f20678daf4697ce3c1995025450458abc226ede46aa50f0c6a3447f88a"
+  },
+  {
+    "path": "hand-hub/views/copper-B.svg",
+    "sha256": "1fb60a33dc4b9ae37b910f3b8304c61e01b159f67deb3eda6c7a174e3d77c0d2"
+  },
+  {
+    "path": "hand-hub/views/copper-F.svg",
+    "sha256": "d15b836ab1fd251bcb9d04afe8346f97d1066e1fe59518595bab98c6c929827b"
+  },
+  {
+    "path": "fingertip/Glove.kicad_sym",
+    "sha256": "d4ad1ea4708ea12e369f166e57b5bf5b0d02f7184bd4a31768664f1d6f372763"
+  },
+  {
+    "path": "fingertip/Glove.pretty/TDK_3D.kicad_mod",
+    "sha256": "f07cf39a32db2e024303955bec2f5350585190b67bb69f5a5793650bc51d6f25"
+  },
+  {
+    "path": "fingertip/Glove.pretty/Tail12.kicad_mod",
+    "sha256": "075f4d1fb8a1a42af93abceaeacddef9ce765e48286e8d522c297ce5400ad91d"
+  },
+  {
+    "path": "fingertip/connectivity.json",
+    "sha256": "f73c3e5a5b7220ad8c720cba5d7f4437fc9dc10746c4a9ac1a8c2f971e33e8cb"
+  },
+  {
+    "path": "fingertip/fabrication/BOM.csv",
+    "sha256": "6320377c7fec6721be59dcb29e5cbec857d40887791b8de06c35b71d340aaaf1"
+  },
+  {
+    "path": "fingertip/fabrication/CPL.csv",
+    "sha256": "d9812b7c3f65326ce18ca0902766b8856e944ff107d5646304dc4b394919c9b9"
+  },
+  {
+    "path": "fingertip/fabrication/FABRICATION-NOTES.txt",
+    "sha256": "137d39030e18f767d2fe65ca1292f24d8c896766a9bcbd9f8b6583209b06ee07"
+  },
+  {
+    "path": "fingertip/fabrication/fingertip-V6-Gerbers-prototype.zip",
+    "sha256": "7ff78463cf21c8e275341e0611cb5ab661a494c6c328bd80a0b4d4c2ab45aa02"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/B-Stiffener-FR4-0.40mm.gbr",
+    "sha256": "e9a526a8e6c4654bdedf89645e1cdd16c014b8b2291f9fb2e55bca7853536b31"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/F-Stiffener-PI-finished-contact-0.30mm.gbr",
+    "sha256": "2d84d38e384310df684b32ead1046b58e59ee4b3c6ba6f92cb1d8f0f2fb7d8e9"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-B_Cu.gbl",
+    "sha256": "31d85c206c2a0a4995935f4813a06b873f5cf008a520a34ddd54af2e572aee6e"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-B_Mask.gbs",
+    "sha256": "90f8e533bf6ef09028d991ef3e42f6a2be62d127f2d7826d17fa8eedbcd70de0"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-B_Paste.gbp",
+    "sha256": "dfce65bb845a94968ecef59aa38647cc9c19236e04d6faf47db6782deaee3d40"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-B_Silkscreen.gbo",
+    "sha256": "fc268a3059742eaee075d1fef4141d144597ab671b1c1096a171b914753ee2b5"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-Edge_Cuts.gm1",
+    "sha256": "e2ee2791f5f56566c05dde2bdda932998ab7726f39624efd435161e11ee67930"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-F_Cu.gtl",
+    "sha256": "b969d247e12f328e05870bf1a2b625dc0b9d6d8b191e3cfcc8012d45171caa33"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-F_Mask.gts",
+    "sha256": "5337ffd25b4c82c33e5a8543d24c9ca30dc1ed07e150ef3d2f16706d06759706"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-F_Paste.gtp",
+    "sha256": "00fe6ca7cd06f164db4222a500dc22137a5c027432109552c7f130dd658eda05"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-F_Silkscreen.gto",
+    "sha256": "4580dcfe5b619256b5c6d0a6ff03b9185cdfa0986d9a101f0da61c5ebee91edb"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip-job.gbrjob",
+    "sha256": "b56bbc00f647ed1606eff808f44d0617cf387f32fcc1f851a04da8893b36cec9"
+  },
+  {
+    "path": "fingertip/fabrication/gerbers/fingertip.drl",
+    "sha256": "57170c4175bc6b77ff8bd62074b105164aad3c8f0a0685c5a4edd26dfaddc739"
+  },
+  {
+    "path": "fingertip/fingertip.kicad_dru",
+    "sha256": "1f459bb62c3f30c2ff194426bf9e104bebdadd7f198bd3dfa8d78d4ef8d8daa5"
+  },
+  {
+    "path": "fingertip/fingertip.kicad_pcb",
+    "sha256": "e567fa100d595bcd76de24d41246af7cf83c48cd30990548223ee418594591fc"
+  },
+  {
+    "path": "fingertip/fingertip.kicad_pro",
+    "sha256": "f147f2c333d4e72fcd2d9b2a2fe44fb9acde104893e948f5b947640dd73df83d"
+  },
+  {
+    "path": "fingertip/fingertip.kicad_sch",
+    "sha256": "f696533b0810fcc0d2b3a59e108eefee4cb6dfcd751a64bbd7f1e35c6e8ac953"
+  },
+  {
+    "path": "fingertip/fp-lib-table",
+    "sha256": "2cb202a9349f9a13cc67262fbb8bd86e4e53b7c83bf9e4ed560da1aee3f039cb"
+  },
+  {
+    "path": "fingertip/models/TDK-dimension-envelope.wrl",
+    "sha256": "abf904e6e04ae906e21e2fac40ffda54e14a20e880d09e6bfa8702e5224292f8"
+  },
+  {
+    "path": "fingertip/models/stiffeners-proposed.wrl",
+    "sha256": "2cd88ccb506031495b73891f965e2e15d6be45a6d956f72323f5ee2a6c0bf717"
+  },
+  {
+    "path": "fingertip/power-and-data-flex.kicad_sch",
+    "sha256": "6aaea43388ef259d6c19fad5df38d148a8d9d8c630a3125cbdc3468359d20216"
+  },
+  {
+    "path": "fingertip/schematic-views/fingertip-Power and data flex.svg",
+    "sha256": "eb49b09ea7211f2772c81e8cff4afcecf352ebcbc7fcc49b27c45ca653752ab2"
+  },
+  {
+    "path": "fingertip/schematic-views/fingertip-Sensor and ADC.svg",
+    "sha256": "2473847f99ed707bebb79c7482ca110c999153ae169a48661107a6986507ca29"
+  },
+  {
+    "path": "fingertip/schematic-views/fingertip.svg",
+    "sha256": "31153e9201286c76315ae6aaa7c300906f6554907cda658e2a2d2bdf474e7737"
+  },
+  {
+    "path": "fingertip/sensor-and-adc.kicad_sch",
+    "sha256": "2c5232d410f30a7330f795a80a1eaff61c3f4a4e16bddf573cc9f312d3b49be8"
+  },
+  {
+    "path": "fingertip/sym-lib-table",
+    "sha256": "8dad2145c691359193663f7ff8541e292137714281a2ba5ec947e42e32fd0e1f"
+  },
+  {
+    "path": "fingertip/verification/drc.rpt",
+    "sha256": "73adbbdfd3db34e86be600a75edaf8005bb918aba4810413ac099c59b8d0d8d5"
+  },
+  {
+    "path": "fingertip/verification/erc.rpt",
+    "sha256": "f2615651970683a7c096a5606e9e8fbb071e4d0efe7ced08b80f87f052779c24"
+  },
+  {
+    "path": "fingertip/verification/netlist.xml",
+    "sha256": "2a54a560b9e430b8cbdf605056f32e6146558751b7c97d5ee01c2de1cb4ccd49"
+  },
+  {
+    "path": "fingertip/views/3d-bottom.png",
+    "sha256": "00aea4397cee68c54a1939e7b1769c32991f9fa52be74b2a6b61aa210de96eac"
+  },
+  {
+    "path": "fingertip/views/3d-top.png",
+    "sha256": "54b5b711f38644ccfbcb7e70c96a798b9e4da7e7ab59598e9121791a13c9a26f"
+  },
+  {
+    "path": "fingertip/views/copper-B.svg",
+    "sha256": "eced1bb935fa32c349df7679b398ccd62474f21cdcec0c7839cd4c63f5b430f6"
+  },
+  {
+    "path": "fingertip/views/copper-F.svg",
+    "sha256": "1ccf966d12e128d34e2729a56883ed6084c5e96a092c5daa3d056b59aa642967"
+  },
+  {
+    "path": "source-carrier/Glove.kicad_sym",
+    "sha256": "2dae96f4ae23239cfb2db2f85c1d912ca90b05318a923d2de343710d4a667cb3"
+  },
+  {
+    "path": "source-carrier/Glove.pretty/WirePair.kicad_mod",
+    "sha256": "39a79d3afac60f4653c2a4aefc89393de19325b9ee8907e99eadd702c9908e6d"
+  },
+  {
+    "path": "source-carrier/Glove.pretty/WirePair_SourceAssembly.kicad_mod",
+    "sha256": "ba7c53ebf0d47e09500c8e4704c5d5495d614605ea7e9e055200cf947bccc8fb"
+  },
+  {
+    "path": "source-carrier/connectivity.json",
+    "sha256": "f0089a6b8a1fc351727741aa503d7a50a0b850e0f53e81a54b2ae2b5f8ac5437"
+  },
+  {
+    "path": "source-carrier/fabrication/BOM.csv",
+    "sha256": "622bfdb733ee817cf0f83253e5aba5dacdf55758f9cc2dc4d6f31ab66ffa3347"
+  },
+  {
+    "path": "source-carrier/fabrication/CPL.csv",
+    "sha256": "951f3da0ebd87ba620526670b5bc01999001112ca59f084332e1fd469dc87892"
+  },
+  {
+    "path": "source-carrier/fabrication/FABRICATION-NOTES.txt",
+    "sha256": "d13fb48e56a0590b8af1ec41c44974eda38bf25582e4fac38b617272d1ac9017"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-B_Cu.gbl",
+    "sha256": "5dd76762c79b91acc8e6499e61696faddb73f65018a2e09cb4811033f5f38692"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-B_Mask.gbs",
+    "sha256": "f7937006c0472fec073f07dc150f505ad30ecf5bdf85eac2205238e869320496"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-B_Paste.gbp",
+    "sha256": "cb9fbf6f29849875fff43d4f4bff6894ed768946507c96c96d4bf97985ae9a3a"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-B_Silkscreen.gbo",
+    "sha256": "a3b7c1585ed1c8cd6094fa8c01351b93390f0a5eb4ce88a03cf0aece13572376"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-Edge_Cuts.gm1",
+    "sha256": "f457c93940d69e32c8108c13a363348fb1952f95ea52f0e3c126292ad06d98ae"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-F_Cu.gtl",
+    "sha256": "27f76b012a5d2933d4df7bc9f13b0a7632c4394c397f4bb49bd880e2135e207c"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-F_Mask.gts",
+    "sha256": "3505673f2bf1d99cf075f75e5e0157c977fcf256c28fcced65312ac1716aa31e"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-F_Paste.gtp",
+    "sha256": "858e37ccabce197ee36764b4c78183755f2c31ad2c4fcd024feb499a0b309de6"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-F_Silkscreen.gto",
+    "sha256": "29adc3b90d74424df2c7ed81c7a05cfccfd6fca0b2f6062ef38ff56bb6534804"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier-job.gbrjob",
+    "sha256": "680822402757b1c3730bc796ea368d65d9cba255a9179d398358143954e864d3"
+  },
+  {
+    "path": "source-carrier/fabrication/gerbers/source-carrier.drl",
+    "sha256": "5156fcf27b33ba4294ff2c442e03962d4200ebae2d6e2b296b2d3dd7030e2e7a"
+  },
+  {
+    "path": "source-carrier/fabrication/source-carrier-V6-Gerbers-prototype.zip",
+    "sha256": "5bf8275e7e5c405f81dad7c8cd63f448f5c68ce41423b34b645babb47fe1e740"
+  },
+  {
+    "path": "source-carrier/fp-lib-table",
+    "sha256": "2cb202a9349f9a13cc67262fbb8bd86e4e53b7c83bf9e4ed560da1aee3f039cb"
+  },
+  {
+    "path": "source-carrier/models/three-coil-concept.wrl",
+    "sha256": "69affee26aa8474b933b54adacb949379df1d7ffa7a3eb6c782a9594c88909cb"
+  },
+  {
+    "path": "source-carrier/schematic-views/source-carrier-Three-axis windings.svg",
+    "sha256": "ef5e5e747584cc56093d4adf4bafe6e4a58f0c15ac4153d12d690da8a12eaa29"
+  },
+  {
+    "path": "source-carrier/schematic-views/source-carrier.svg",
+    "sha256": "fcdc2c3776e48cb23379ca8654b8fd3ee145bee8afbd011debf2340b8ada7898"
+  },
+  {
+    "path": "source-carrier/source-carrier.kicad_pcb",
+    "sha256": "678b27718b49f52d203655f71ccbb426b0a83f45bd6589329a88f39f6092ca41"
+  },
+  {
+    "path": "source-carrier/source-carrier.kicad_pro",
+    "sha256": "91c156368b949ae41d097b594b1441d0582be9c9fbc6e56caea2d2b5b2e7a39d"
+  },
+  {
+    "path": "source-carrier/source-carrier.kicad_sch",
+    "sha256": "f2aa62a58e05be10bf50ef8448830f4029d53761aeac5b67b0f9bd71d1edc0b3"
+  },
+  {
+    "path": "source-carrier/sym-lib-table",
+    "sha256": "8dad2145c691359193663f7ff8541e292137714281a2ba5ec947e42e32fd0e1f"
+  },
+  {
+    "path": "source-carrier/three-axis-windings.kicad_sch",
+    "sha256": "d3ca55839e3196d3e514e2fffcbb92683f688f08118a00dccc6bc63a84daaea7"
+  },
+  {
+    "path": "source-carrier/verification/drc.rpt",
+    "sha256": "fc7feff609e26b219a71545e961f2cbb905d62dab07d1d584204a90eea1357c5"
+  },
+  {
+    "path": "source-carrier/verification/erc.rpt",
+    "sha256": "3e4579d8bf90263309d2300deb89408159e104fdfb4e53edcc8699057344904e"
+  },
+  {
+    "path": "source-carrier/verification/netlist.xml",
+    "sha256": "3f6a22780a5621bf5165c21b9844b70879dd4b967b31567beb27bbe79c72007c"
+  },
+  {
+    "path": "source-carrier/views/3d-bottom.png",
+    "sha256": "7677dc7c2f409bb7473af00025cf50e925efb8629fd93bd90f2e0b6ed8b7239a"
+  },
+  {
+    "path": "source-carrier/views/3d-top.png",
+    "sha256": "efb029d5caa7c4576b7896ce8368280bb07f96a7cff9e7cf072d599f507a34a5"
+  },
+  {
+    "path": "source-carrier/views/copper-B.svg",
+    "sha256": "dfe84e2720cff1d43f8905073f26f15dae9508a715dd65b62fddb81b5118cc4c"
+  },
+  {
+    "path": "source-carrier/views/copper-F.svg",
+    "sha256": "0fd9bff939ab887fd9875909659f6f3041b0f5c613e59a0819af046f481f07af"
+  }
+]

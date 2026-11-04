@@ -1,0 +1,8 @@
+#VRML V2.0 utf8
+# Simplified dimensional model, not manufacturer STEP. Units: 0.1 inch.
+Transform { translation 0.0 0.0 0.07874015748031496 children [ Shape { appearance Appearance { material Material { diffuseColor .68 .69 .7 } } geometry Box { size 3.5196850393700787 2.874015748031496 0.15748031496062992 } } ] }
+Transform { translation 0.0 0.0 1.200787401574803 children [ Shape { appearance Appearance { material Material { diffuseColor .7 .71 .73 } } geometry Box { size 3.5196850393700787 2.874015748031496 0.11811023622047244 } } ] }
+Transform { translation -1.7007874015748032 0.0 0.6299212598425197 children [ Shape { appearance Appearance { material Material { diffuseColor .68 .69 .7 } } geometry Box { size 0.11811023622047244 2.874015748031496 1.1023622047244093 } } ] }
+Transform { translation 1.7007874015748032 0.0 0.6299212598425197 children [ Shape { appearance Appearance { material Material { diffuseColor .68 .69 .7 } } geometry Box { size 0.11811023622047244 2.874015748031496 1.1023622047244093 } } ] }
+Transform { translation 0.0 1.3779527559055118 0.6299212598425197 children [ Shape { appearance Appearance { material Material { diffuseColor .65 .66 .68 } } geometry Box { size 3.3464566929133857 0.11811023622047244 1.1023622047244093 } } ] }
+Transform { translation 0.0 -0.19685039370078738 0.6299212598425197 children [ Shape { appearance Appearance { material Material { diffuseColor .16 .17 .18 } } geometry Box { size 2.559055118110236 2.283464566929134 0.21653543307086615 } } ] }

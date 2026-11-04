@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>./source-carrier.kicad_sch</source>
+    <date>2026-10-04T13:48:42+0800</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/Three-axis windings/" tstamps="/41e40d2f-bf9f-50dd-90f9-2eb114bc4bf1/">
+      <title_block>
+        <title>source-carrier - Three-axis windings</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>three-axis-windings.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/" tstamps="/">
+      <title_block>
+        <title>source-carrier - PROTOTYPE</title>
+        <company/>
+        <rev>V3</rev>
+        <date>2026-10-02</date>
+        <source>source-carrier.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>BM06B-SRSS-TB</value>
+      <footprint>Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">BM06B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J6" description=""/>
+      <property name="MPN" value="BM06B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Three-axis windings"/>
+      <property name="Sheetfile" value="three-axis-windings.kicad_sch"/>
+      <sheetpath names="/Three-axis windings/" tstamps="/41e40d2f-bf9f-50dd-90f9-2eb114bc4bf1/"/>
+      <tstamps>55e65732-06bb-5ad8-aa79-598c88e76838</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>X 80 turns AWG36</value>
+      <footprint>Glove:WirePair_SourceAssembly</footprint>
+      <fields>
+        <field name="MPN">CUSTOM_WOUND_X</field>
+        <field name="Footprint">Glove:WirePair_SourceAssembly</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J2" description=""/>
+      <property name="MPN" value="CUSTOM_WOUND_X"/>
+      <property name="Sheetname" value="Three-axis windings"/>
+      <property name="Sheetfile" value="three-axis-windings.kicad_sch"/>
+      <sheetpath names="/Three-axis windings/" tstamps="/41e40d2f-bf9f-50dd-90f9-2eb114bc4bf1/"/>
+      <tstamps>9e8b40cd-079b-5a59-9db6-61068a9589f2</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>Y 80 turns AWG36</value>
+      <footprint>Glove:WirePair</footprint>
+      <fields>
+        <field name="MPN">CUSTOM_WOUND_Y</field>
+        <field name="Footprint">Glove:WirePair</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J2" description=""/>
+      <property name="MPN" value="CUSTOM_WOUND_Y"/>
+      <property name="Sheetname" value="Three-axis windings"/>
+      <property name="Sheetfile" value="three-axis-windings.kicad_sch"/>
+      <sheetpath names="/Three-axis windings/" tstamps="/41e40d2f-bf9f-50dd-90f9-2eb114bc4bf1/"/>
+      <tstamps>dd7f42d9-f623-5fa9-a068-606376ffa9c9</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>Z 80 turns AWG36</value>
+      <footprint>Glove:WirePair</footprint>
+      <fields>
+        <field name="MPN">CUSTOM_WOUND_Z</field>
+        <field name="Footprint">Glove:WirePair</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J2" description=""/>
+      <property name="MPN" value="CUSTOM_WOUND_Z"/>
+      <property name="Sheetname" value="Three-axis windings"/>
+      <property name="Sheetfile" value="three-axis-windings.kicad_sch"/>
+      <sheetpath names="/Three-axis windings/" tstamps="/41e40d2f-bf9f-50dd-90f9-2eb114bc4bf1/"/>
+      <tstamps>322e472d-5d5b-5b27-8ca2-7ad4c7b341b1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Glove" part="J2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">J2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="J6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">J6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Glove">
+      <uri>./Glove.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="XN" class="Default">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="XP" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="YN" class="Default">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="YP" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="ZN" class="Default">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="ZP" class="Default">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

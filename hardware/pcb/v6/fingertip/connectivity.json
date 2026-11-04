@@ -1,0 +1,628 @@
+{
+  "board": "fingertip",
+  "size_mm": [
+    18,
+    154
+  ],
+  "parts": [
+    {
+      "key": "COIL",
+      "ref": "L1",
+      "value": "B82453C0270A000",
+      "nets": {
+        "1": "YP",
+        "2": "XP",
+        "3": "ZP",
+        "5": "YN",
+        "6": "XN",
+        "7": "ZN"
+      },
+      "x": 9.0,
+      "y": 8.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:TDK_3D",
+      "mpn": "B82453C0270A000",
+      "note": "Eight-terminal land pattern, NC mechanical terminals 4 and 8; verify drawing provenance",
+      "group": "Sensor and ADC",
+      "uuid": "5ecc6f64-00cd-5b5a-8056-52f8d6a4e245"
+    },
+    {
+      "key": "ADC",
+      "ref": "U1",
+      "value": "ADS131M04IPWR",
+      "nets": {
+        "1": "3V3_A",
+        "2": "GND",
+        "3": "AXP",
+        "4": "AXN",
+        "5": "AYN",
+        "6": "AYP",
+        "7": "AZP",
+        "8": "AZN",
+        "9": "GND",
+        "10": "GND",
+        "11": "SYNC",
+        "12": "CS",
+        "13": "DRDY_RAW",
+        "14": "SCLK",
+        "15": "MISO_RAW",
+        "16": "MOSI",
+        "17": "CLK",
+        "18": "CAP",
+        "19": "GND",
+        "20": "3V3"
+      },
+      "x": 9.0,
+      "y": 23.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "mpn": "ADS131M04IPWR",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "63edfd1a-e320-5c8c-a9c3-273aafa04f35"
+    },
+    {
+      "key": "R",
+      "ref": "R1",
+      "value": "49.9",
+      "nets": {
+        "1": "XP",
+        "2": "AXP"
+      },
+      "x": 3.1,
+      "y": 15.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "0566d064-045b-5fa8-9849-ddc5f4652869"
+    },
+    {
+      "key": "R",
+      "ref": "R2",
+      "value": "49.9",
+      "nets": {
+        "1": "XN",
+        "2": "AXN"
+      },
+      "x": 14.9,
+      "y": 15.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "bf8fac31-1b7e-57ce-b470-5727a81357dd"
+    },
+    {
+      "key": "R",
+      "ref": "R3",
+      "value": "10k",
+      "nets": {
+        "1": "AXP",
+        "2": "GND"
+      },
+      "x": 5.3,
+      "y": 15.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "d0d9c504-d895-555f-8eda-b8d487a5255e"
+    },
+    {
+      "key": "R",
+      "ref": "R4",
+      "value": "10k",
+      "nets": {
+        "1": "AXN",
+        "2": "GND"
+      },
+      "x": 12.7,
+      "y": 15.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "4c715d05-8cb5-59b1-be9b-7ee2d5fd32a7"
+    },
+    {
+      "key": "C",
+      "ref": "C1",
+      "value": "1n C0G",
+      "nets": {
+        "1": "AXP",
+        "2": "AXN"
+      },
+      "x": 9.0,
+      "y": 15.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n C0G",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "8567f7d9-221a-5dcc-9c23-1ad2dc7bf0ac"
+    },
+    {
+      "key": "R",
+      "ref": "R5",
+      "value": "49.9",
+      "nets": {
+        "1": "YP",
+        "2": "AYP"
+      },
+      "x": 3.1,
+      "y": 16.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "4fdb32b6-9f4a-50bd-ab5d-5731a57636c6"
+    },
+    {
+      "key": "R",
+      "ref": "R6",
+      "value": "49.9",
+      "nets": {
+        "1": "YN",
+        "2": "AYN"
+      },
+      "x": 14.9,
+      "y": 16.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "3721ec8c-eacc-57ff-b03d-e4cce8fb57d3"
+    },
+    {
+      "key": "R",
+      "ref": "R7",
+      "value": "10k",
+      "nets": {
+        "1": "AYP",
+        "2": "GND"
+      },
+      "x": 5.3,
+      "y": 16.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "b697895f-8d50-5261-b28c-b469a87814a5"
+    },
+    {
+      "key": "R",
+      "ref": "R8",
+      "value": "10k",
+      "nets": {
+        "1": "AYN",
+        "2": "GND"
+      },
+      "x": 12.7,
+      "y": 16.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "eaf9d035-8daa-5564-ad33-630744509c76"
+    },
+    {
+      "key": "C",
+      "ref": "C2",
+      "value": "1n C0G",
+      "nets": {
+        "1": "AYP",
+        "2": "AYN"
+      },
+      "x": 9.0,
+      "y": 16.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n C0G",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "e648a1ed-cbdd-558d-8d0d-444464b99035"
+    },
+    {
+      "key": "R",
+      "ref": "R9",
+      "value": "49.9",
+      "nets": {
+        "1": "ZP",
+        "2": "AZP"
+      },
+      "x": 3.1,
+      "y": 18.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "41d9935f-de6f-5d9f-8419-5d013a9eceea"
+    },
+    {
+      "key": "R",
+      "ref": "R10",
+      "value": "49.9",
+      "nets": {
+        "1": "ZN",
+        "2": "AZN"
+      },
+      "x": 14.9,
+      "y": 18.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "49.9",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "4d83f808-af7d-50c5-b60b-3be484e06c91"
+    },
+    {
+      "key": "R",
+      "ref": "R11",
+      "value": "10k",
+      "nets": {
+        "1": "AZP",
+        "2": "GND"
+      },
+      "x": 5.3,
+      "y": 18.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "493b771f-6f61-5d52-9eec-a3d5a8a3e1ab"
+    },
+    {
+      "key": "R",
+      "ref": "R12",
+      "value": "10k",
+      "nets": {
+        "1": "AZN",
+        "2": "GND"
+      },
+      "x": 12.7,
+      "y": 18.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "e67762d1-d69f-54f8-9b19-1607983f6a72"
+    },
+    {
+      "key": "C",
+      "ref": "C3",
+      "value": "1n C0G",
+      "nets": {
+        "1": "AZP",
+        "2": "AZN"
+      },
+      "x": 9.0,
+      "y": 18.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n C0G",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "e6bdcb2e-3c0e-5f84-8015-8b2df13b6c03"
+    },
+    {
+      "key": "R",
+      "ref": "R13",
+      "value": "10",
+      "nets": {
+        "1": "3V3",
+        "2": "3V3_A"
+      },
+      "x": 3.0,
+      "y": 20.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "f96f397e-eb5f-5ce1-bd06-64910eabe8a3"
+    },
+    {
+      "key": "C",
+      "ref": "C4",
+      "value": "1u",
+      "nets": {
+        "1": "3V3_A",
+        "2": "GND"
+      },
+      "x": 3.0,
+      "y": 22.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "86eb1874-107f-5160-a586-e089d07a17de"
+    },
+    {
+      "key": "C",
+      "ref": "C5",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_A",
+        "2": "GND"
+      },
+      "x": 3.0,
+      "y": 23.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "e985f457-378d-5227-b595-1846bdffd7b1"
+    },
+    {
+      "key": "C",
+      "ref": "C6",
+      "value": "1u",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 20.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "3d8c6c56-5ee0-51fc-a869-b3edbc3aa80f"
+    },
+    {
+      "key": "C",
+      "ref": "C7",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 22.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "1701a496-af92-51b8-b9e1-50949a8de1e2"
+    },
+    {
+      "key": "C",
+      "ref": "C8",
+      "value": "220n",
+      "nets": {
+        "1": "CAP",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 23.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "220n",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "d4446198-62c9-57d7-aecc-4c9893e3e938"
+    },
+    {
+      "key": "R",
+      "ref": "R14",
+      "value": "33",
+      "nets": {
+        "1": "MISO_RAW",
+        "2": "MISO"
+      },
+      "x": 15.0,
+      "y": 25.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "46ec2898-083e-5758-a2cb-14ee63d9d279"
+    },
+    {
+      "key": "R",
+      "ref": "R15",
+      "value": "33",
+      "nets": {
+        "1": "DRDY_RAW",
+        "2": "DRDY"
+      },
+      "x": 15.0,
+      "y": 26.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "34247b2a-ee2b-5278-ae5d-35a6a93837c0"
+    },
+    {
+      "key": "R",
+      "ref": "R16",
+      "value": "100k",
+      "nets": {
+        "1": "CS",
+        "2": "3V3"
+      },
+      "x": 3.0,
+      "y": 25.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "407bbdf5-0ca9-556f-a8a0-c41b62494a6c"
+    },
+    {
+      "key": "R",
+      "ref": "R17",
+      "value": "100k",
+      "nets": {
+        "1": "SYNC",
+        "2": "3V3"
+      },
+      "x": 3.0,
+      "y": 26.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "619dffa3-d3e4-5341-9e11-c0f2004bbe45"
+    },
+    {
+      "key": "C",
+      "ref": "C9",
+      "value": "4.7u",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 9.0,
+      "y": 28.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "4.7u",
+      "note": "",
+      "group": "Sensor and ADC",
+      "uuid": "92b29fca-3e52-547d-9cea-e5d7b7f596f2"
+    },
+    {
+      "key": "J12",
+      "ref": "J1",
+      "value": "12-way FPC tail",
+      "nets": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "CLK",
+        "4": "GND",
+        "5": "SCLK",
+        "6": "MOSI",
+        "7": "GND",
+        "8": "MISO",
+        "9": "CS",
+        "10": "DRDY",
+        "11": "SYNC",
+        "12": "GND"
+      },
+      "x": 9.0,
+      "y": 152.3,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:Tail12",
+      "mpn": "12-way FPC tail",
+      "note": "Bottom gold contacts, pin 1 on right in component-side view; 12mm supported crossover paddle; finished insertion thickness 0.30mm",
+      "group": "Power and data flex",
+      "uuid": "1e1ea757-0655-52d3-9f02-5d6c913f77da"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG0",
+      "value": "3V3",
+      "nets": {
+        "1": "3V3"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "3V3",
+      "note": "",
+      "group": "Power and data flex",
+      "uuid": "d9ad50a0-68ff-5518-88a0-5113570e293d"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG1",
+      "value": "3V3_A",
+      "nets": {
+        "1": "3V3_A"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "3V3_A",
+      "note": "",
+      "group": "Power and data flex",
+      "uuid": "6f88c71d-8b98-5a2c-84ec-4f5e603ddf3f"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG2",
+      "value": "GND",
+      "nets": {
+        "1": "GND"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "GND",
+      "note": "",
+      "group": "Power and data flex",
+      "uuid": "7b8b5745-8501-5ea1-8d27-f68364171851"
+    }
+  ],
+  "bus": {
+    "1": "3V3",
+    "2": "GND",
+    "3": "CLK",
+    "4": "GND",
+    "5": "SCLK",
+    "6": "MOSI",
+    "7": "GND",
+    "8": "MISO",
+    "9": "CS",
+    "10": "DRDY",
+    "11": "SYNC",
+    "12": "GND"
+  }
+}

@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>./hand-hub.kicad_sch</source>
+    <date>2026-10-04T13:48:42+0800</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/">
+      <title_block>
+        <title>hand-hub - Power USB</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>power-usb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/">
+      <title_block>
+        <title>hand-hub - Controller</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/">
+      <title_block>
+        <title>hand-hub - Finger Interfaces</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>finger-interfaces.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/">
+      <title_block>
+        <title>hand-hub - Hand IMU</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>hand-imu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/">
+      <title_block>
+        <title>hand-hub - Magnetic Source Drivers</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>magnetic-source-drivers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/USB recovery/" tstamps="/c8a8f96a-7dc8-540b-9775-a582c8ff7a45/">
+      <title_block>
+        <title>hand-hub - USB recovery</title>
+        <company/>
+        <rev>V3 prototype</rev>
+        <date>2026-10-02</date>
+        <source>usb-recovery.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/" tstamps="/">
+      <title_block>
+        <title>hand-hub - PROTOTYPE</title>
+        <company/>
+        <rev>V3</rev>
+        <date>2026-10-02</date>
+        <source>hand-hub.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1u"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>1c12846a-9cdc-5f19-9d75-7dad00374d99</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">4.7u</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="4.7u"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>199e42ea-9274-5dd3-b179-5a83d1493fa7</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>88c44fca-b530-5cc1-8168-30e7bf83c547</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>4bacadb9-41be-5375-b04a-4bc2e6e76c88</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB-C USB2</value>
+      <footprint>Glove:USB_C_HRO_Envelope</footprint>
+      <fields>
+        <field name="MPN">TYPE-C-31-M-12</field>
+        <field name="Footprint">Glove:USB_C_HRO_Envelope</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="USB" description=""/>
+      <property name="MPN" value="TYPE-C-31-M-12"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>99b35207-84f9-5c9f-a70e-a5ffec04f3e5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">5.1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="5.1k"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>950fabdc-3616-51f6-8b19-e840cb7a6227</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">5.1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="5.1k"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>494f3507-dcc1-56be-b8af-872145c7fc5d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">0603WAF0000T5E</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="0603WAF0000T5E"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>a398855c-fe18-5c01-8321-72a54db4c706</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">0603WAF0000T5E</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="0603WAF0000T5E"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>cab6dafd-8f4a-5a8f-9181-aa1e2db25963</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100k"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>9cefbcdf-7823-53fc-a9a4-b2d9602628a4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="ESD" description=""/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>8e7d1b2e-016f-5d35-bd9f-af058a575d9e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLV75533PDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">TLV75533PDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="LDO" description=""/>
+      <property name="MPN" value="TLV75533PDBVR"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>873a38c0-d157-5d3b-83b2-e66da676e81d</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>TPS22919DCKR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <fields>
+        <field name="MPN">TPS22919DCKR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="LOADSW" description=""/>
+      <property name="MPN" value="TPS22919DCKR"/>
+      <property name="Sheetname" value="Power USB"/>
+      <property name="Sheetfile" value="power-usb.kicad_sch"/>
+      <sheetpath names="/Power USB/" tstamps="/3cf073f8-9a4c-5187-91b2-72ddb392d0fb/"/>
+      <tstamps>6e6a0bd8-012b-568a-9522-a1c635bcc057</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>2053e6eb-e0cb-5216-b7a8-efa4e74346b0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>f2fe014a-f2df-58f3-aedd-37f1c5f6b273</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>73348767-5f03-5e1b-aa5c-37f43f839860</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>9539041f-9179-5a20-8f36-fb9c61a6edaf</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">4.7u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="4.7u"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>d333b0bc-a304-52a0-8914-228db2754b3e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1u"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>885a0e57-f617-578d-a59c-aec9d6b51b79</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>ed9792ac-cbf9-5e58-b65e-df51df8e637f</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>38ecf61f-1d7a-5e20-b968-1ff85f11d003</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PH1.27-02-03PWS</value>
+      <footprint>Glove:XUNPU_PH127_2x03_SMD</footprint>
+      <fields>
+        <field name="MPN">PH1.27-02-03PWS</field>
+        <field name="Footprint">Glove:XUNPU_PH127_2x03_SMD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J6" description=""/>
+      <property name="MPN" value="PH1.27-02-03PWS"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>40cc20d5-fc47-5a70-a954-9dfc9ff818f4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">10</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="10"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>d5d73bfa-6fa9-59bb-897b-6ee0bc059388</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="10k"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>c1f664ee-8671-5a07-8df6-06ac22dec05c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G474RET6</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">STM32G474RET6</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="MCU" description=""/>
+      <property name="MPN" value="STM32G474RET6"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/54bc0a1a-4184-56ac-92b8-d9938cfeada5/"/>
+      <tstamps>3572fad6-5ee5-59ca-8f3c-575f0f64ebef</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>e5cc0499-40db-5782-98ed-3e387d8b83b4</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>b566893a-cef1-5f99-b7c2-84432ac98712</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>580fdc5b-81fa-5e88-aa5a-13b9028b7763</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FH12-12S-0.5SH(55)</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12-12S-0.5SH(55)</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J12" description=""/>
+      <property name="MPN" value="FH12-12S-0.5SH(55)"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>ccf16aa1-d66f-5eb6-88dc-6d62504d77ce</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>FH12-12S-0.5SH(55)</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12-12S-0.5SH(55)</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J12" description=""/>
+      <property name="MPN" value="FH12-12S-0.5SH(55)"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>5019f5ad-e327-503d-b560-c6b87dcb9e81</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>FH12-12S-0.5SH(55)</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12-12S-0.5SH(55)</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J12" description=""/>
+      <property name="MPN" value="FH12-12S-0.5SH(55)"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>6adeeb32-b8bd-5f5e-a384-00f6b3ec72a4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>FH12-12S-0.5SH(55)</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12-12S-0.5SH(55)</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J12" description=""/>
+      <property name="MPN" value="FH12-12S-0.5SH(55)"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>38835c00-da1f-525b-ad81-42e01ffbeaa5</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>FH12-12S-0.5SH(55)</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12-12S-0.5SH(55)</field>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J12" description=""/>
+      <property name="MPN" value="FH12-12S-0.5SH(55)"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>48e30c5e-eff6-5ef3-92fe-829892f05992</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>0fc41f1e-c143-5ae2-a016-fa5c8f9bbd5a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>65435032-1267-5294-8f72-9ce94e8ca7b1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>e9d2147f-a22f-5351-ad7d-a584825b73e1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>497230ef-1b56-504e-8c4c-7ca184e2ebdc</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>928ce7d2-0342-5d4d-b920-562d47344ce0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>58a844cb-2696-5417-8ed4-40c0bded28d2</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>d6106f1c-9e50-5d23-a6ca-6e802f05e527</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>b19f406a-daa8-5785-9b5c-033c9c34f550</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>28d41ea1-11fe-5471-89de-4dd54135d37e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>467e2bcb-0ea6-5369-9a50-b064ea8507a1</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>248afabf-64e1-5350-b75c-3438555b93e9</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>3692a98b-a424-51f6-b6f3-4bcd3bf22a85</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>28435f94-f3af-5c2c-a0b0-66af3eda1392</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>14538c7b-4760-51ac-a3d8-1aed0fe278b7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>f34a40c2-5bdd-564c-bea0-e4e7bcbb0624</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-07120RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RC0402FR-07120RL"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>deb7a9bb-2e87-5047-9d81-98dd435f9d1d</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>3c98a4fb-16b4-5c11-b398-656af2a57038</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>08c6bb41-0faa-553e-9b83-546658fbff96</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>2f4b94b6-5879-5c9a-8270-cdc14f4383dd</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>4f147f5c-4657-50a8-8773-60641e4fe7db</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>e52e303d-10ec-5e09-bb30-e23edc8b5fd1</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>4a285b50-5aeb-5f63-8e2d-41c7664f7962</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>07a20ca8-b061-555c-9099-baa0946fdd7e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>a3080209-553b-555b-80ed-a6e202ec9cf5</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>dd55a459-ade1-51d7-b852-3e30248d1c3b</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>26d1b279-bad2-5dcd-a549-d6cbc0480653</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>0525aeb8-81d9-525e-b353-ed552d0f6173</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>2bc93afe-56fd-5af8-8d4a-5e515d0fcf2b</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>bb7d2888-2106-5040-b942-7b2b03edc241</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">47</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="47"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>32b53e7b-6a89-5c64-8a70-e83b9182f078</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">33</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="33"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>2e8520f8-3b29-5ebc-aae8-53cb96dc9486</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100k"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>f160f6a8-5923-56ae-8087-825572ad1861</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100k"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>3266b8e1-a00b-5c8d-96e4-89e0ec5e0e59</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC244APWR</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC244APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="BUF" description=""/>
+      <property name="MPN" value="SN74LVC244APWR"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>5bbb7084-d859-5aee-80ed-765cf3e68c72</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC244APWR</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC244APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="BUF" description=""/>
+      <property name="MPN" value="SN74LVC244APWR"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>4294f855-00ee-5917-9ba9-70f671baa7d5</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>3N08192G33YC</value>
+      <footprint>Glove:SJK_3N_3225</footprint>
+      <fields>
+        <field name="MPN">3N08192G33YC</field>
+        <field name="Footprint">Glove:SJK_3N_3225</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="XO" description=""/>
+      <property name="MPN" value="3N08192G33YC"/>
+      <property name="Sheetname" value="Finger Interfaces"/>
+      <property name="Sheetfile" value="finger-interfaces.kicad_sch"/>
+      <sheetpath names="/Finger Interfaces/" tstamps="/90a3dc1b-39e8-5f68-981d-bf3a5a5ff899/"/>
+      <tstamps>f4afa90c-54b8-5b8d-a89c-9723c5cc0d9a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Hand IMU"/>
+      <property name="Sheetfile" value="hand-imu.kicad_sch"/>
+      <sheetpath names="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/"/>
+      <tstamps>130cef25-0d0a-521e-a03d-18986ac0ed75</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Hand IMU"/>
+      <property name="Sheetfile" value="hand-imu.kicad_sch"/>
+      <sheetpath names="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/"/>
+      <tstamps>523ff1d4-e75c-54a1-81ca-af037f0ef13d</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">4.7k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="4.7k"/>
+      <property name="Sheetname" value="Hand IMU"/>
+      <property name="Sheetfile" value="hand-imu.kicad_sch"/>
+      <sheetpath names="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/"/>
+      <tstamps>6a57d043-9932-5d08-9fb7-b346e899ab15</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">4.7k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="4.7k"/>
+      <property name="Sheetname" value="Hand IMU"/>
+      <property name="Sheetfile" value="hand-imu.kicad_sch"/>
+      <sheetpath names="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/"/>
+      <tstamps>a6e41630-b7f1-570b-bc94-2a59fa0fa858</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>BMI323</value>
+      <footprint>Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">BMI323</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="IMU" description=""/>
+      <property name="MPN" value="BMI323"/>
+      <property name="Sheetname" value="Hand IMU"/>
+      <property name="Sheetfile" value="hand-imu.kicad_sch"/>
+      <sheetpath names="/Hand IMU/" tstamps="/24fce5c5-e7ab-56e9-8d82-0aeb402fff4a/"/>
+      <tstamps>4cfa4096-f6d3-5a9b-85ef-aedd18ba9c68</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>74ef164e-cbd9-5ab0-a2c9-b043a5e934b5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1u"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>1363c46f-a9ae-5dcc-bfc0-96fd25d3411f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>32733c0a-4718-5ed1-b48e-fd23517e704d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>dd37ab37-5786-5503-9886-bcb27c42bea0</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>e83f0c91-c863-5e51-80e3-c763c7515a4a</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1u"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>aeaa206d-de46-5498-a1d4-c88acaf6d09a</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>57371e28-10cc-5e1b-af2a-786f53455993</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>615af926-bfd8-5fcf-9ec8-79feab25fd84</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>36e55f23-cf59-5228-9a02-842e634a3b89</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1u"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>b0484842-23a3-5885-998a-a94bfe2b1084</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">1n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="1n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>6333fad2-d964-59b1-9f3c-f2bee5cb6be6</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="C" description=""/>
+      <property name="MPN" value="100n"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>bb31cf56-5883-5812-87a9-63546e106da8</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>3-axis source</value>
+      <footprint>Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">BM06B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="J6" description=""/>
+      <property name="MPN" value="BM06B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>c651de5e-e39b-5e9f-bf51-70f127695a8f</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>47 1W 1%</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="MPN">FRR2512F47R0TS</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="FRR2512F47R0TS"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>9cd34e46-5655-5706-949a-1ffe4f9d2c55</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>0.2 0.1W 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RL0603FR-070R2L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RL0603FR-070R2L"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>44935158-aec6-50ad-9a36-a0b9368a8ef2</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>583565cc-e2c3-5216-8c1e-91231ecc6e93</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>47 1W 1%</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="MPN">FRR2512F47R0TS</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="FRR2512F47R0TS"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>105132bb-2c45-5de6-993c-37eda40c2ad8</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>0.2 0.1W 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RL0603FR-070R2L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RL0603FR-070R2L"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>c5228534-2032-58c5-9c9e-9a3ebfecff33</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>0b0ec96e-72d4-5265-bc0c-62836f1a8204</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>47 1W 1%</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="MPN">FRR2512F47R0TS</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="FRR2512F47R0TS"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>51aace90-632f-5439-a826-c32056924382</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>0.2 0.1W 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RL0603FR-070R2L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="RL0603FR-070R2L"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>4e65a6e4-97df-5242-827d-2ff6a1436ccb</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>9909c19d-028c-56fa-8233-843c2ba3a0e2</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="100k"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>fced1fd5-14bb-5af9-8194-df34c6b99fa3</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>DRV8837DSGR</value>
+      <footprint>Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <fields>
+        <field name="MPN">DRV8837DSGR</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="DRV" description=""/>
+      <property name="MPN" value="DRV8837DSGR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>0941c623-0e31-5940-a5c2-2e2432b722a3</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>DRV8837DSGR</value>
+      <footprint>Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <fields>
+        <field name="MPN">DRV8837DSGR</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="DRV" description=""/>
+      <property name="MPN" value="DRV8837DSGR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>843aa23d-a9da-5763-8241-2d3378f4cbe9</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>DRV8837DSGR</value>
+      <footprint>Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <fields>
+        <field name="MPN">DRV8837DSGR</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="DRV" description=""/>
+      <property name="MPN" value="DRV8837DSGR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>c44d6807-e747-5277-9fc5-cccb078d05df</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>INA240A1PWR</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">INA240A1PWR</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="CSA" description=""/>
+      <property name="MPN" value="INA240A1PWR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>8519763b-937b-58ff-880c-45a15d6bf327</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>INA240A1PWR</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">INA240A1PWR</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="CSA" description=""/>
+      <property name="MPN" value="INA240A1PWR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>2b0cfb83-b82d-5f72-8db0-386d2f56ed18</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>INA240A1PWR</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">INA240A1PWR</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="CSA" description=""/>
+      <property name="MPN" value="INA240A1PWR"/>
+      <property name="Sheetname" value="Magnetic Source Drivers"/>
+      <property name="Sheetfile" value="magnetic-source-drivers.kicad_sch"/>
+      <sheetpath names="/Magnetic Source Drivers/" tstamps="/fb84dfe3-63cc-5196-b046-7b418b037369/"/>
+      <tstamps>325d11a8-50ab-5efd-b0ff-cc474d51c9b6</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="R" description=""/>
+      <property name="MPN" value="10k"/>
+      <property name="Sheetname" value="USB recovery"/>
+      <property name="Sheetfile" value="usb-recovery.kicad_sch"/>
+      <sheetpath names="/USB recovery/" tstamps="/c8a8f96a-7dc8-540b-9775-a582c8ff7a45/"/>
+      <tstamps>577aa4aa-1e06-5198-b9c1-db51d0547f8f</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>B3U-1000P</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_B3U-1000P</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="SW" description=""/>
+      <property name="MPN" value="B3U-1000P"/>
+      <property name="Sheetname" value="USB recovery"/>
+      <property name="Sheetfile" value="usb-recovery.kicad_sch"/>
+      <sheetpath names="/USB recovery/" tstamps="/c8a8f96a-7dc8-540b-9775-a582c8ff7a45/"/>
+      <tstamps>7eaf91ff-e1f0-52c5-a49c-c777f3802663</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>B3U-1000P</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_B3U-1000P</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Glove" part="SW" description=""/>
+      <property name="MPN" value="B3U-1000P"/>
+      <property name="Sheetname" value="USB recovery"/>
+      <property name="Sheetfile" value="usb-recovery.kicad_sch"/>
+      <sheetpath names="/USB recovery/" tstamps="/c8a8f96a-7dc8-540b-9775-a582c8ff7a45/"/>
+      <tstamps>0e315c5e-efdd-56d0-bd49-916f00d3bdc0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Glove" part="BUF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BUF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE" type="input"/>
+        <pin num="2" name="1A0" type="input"/>
+        <pin num="3" name="2Y0" type="tri_state"/>
+        <pin num="4" name="1A1" type="input"/>
+        <pin num="5" name="2Y1" type="tri_state"/>
+        <pin num="6" name="1A2" type="input"/>
+        <pin num="7" name="2Y2" type="tri_state"/>
+        <pin num="8" name="1A3" type="input"/>
+        <pin num="9" name="2Y3" type="tri_state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="2A3" type="input"/>
+        <pin num="12" name="1Y3" type="tri_state"/>
+        <pin num="13" name="2A2" type="input"/>
+        <pin num="14" name="1Y2" type="tri_state"/>
+        <pin num="15" name="2A1" type="input"/>
+        <pin num="16" name="1Y1" type="tri_state"/>
+        <pin num="17" name="2A0" type="input"/>
+        <pin num="18" name="1Y0" type="tri_state"/>
+        <pin num="19" name="2OE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="CSA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CSA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="REF2" type="passive"/>
+        <pin num="7" name="REF1" type="passive"/>
+        <pin num="8" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="DRV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VM" type="power_in"/>
+        <pin num="2" name="OUT1" type="output"/>
+        <pin num="3" name="OUT2" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IN2" type="input"/>
+        <pin num="6" name="IN1" type="input"/>
+        <pin num="7" name="~{SLEEP}" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="ESD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="IMU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IMU</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="CSB" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="J12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">J12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="J6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">J6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="LDO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="LOADSW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LOADSW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="QOD" type="passive"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="MCU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PF0" type="bidirectional"/>
+        <pin num="6" name="PF1" type="bidirectional"/>
+        <pin num="7" name="PG10" type="bidirectional"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="PA0" type="bidirectional"/>
+        <pin num="13" name="PA1" type="bidirectional"/>
+        <pin num="14" name="PA2" type="bidirectional"/>
+        <pin num="15" name="VSS" type="power_in"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="PA4" type="bidirectional"/>
+        <pin num="19" name="PA5" type="bidirectional"/>
+        <pin num="20" name="PA6" type="bidirectional"/>
+        <pin num="21" name="PA7" type="bidirectional"/>
+        <pin num="22" name="PC4" type="bidirectional"/>
+        <pin num="23" name="PC5" type="bidirectional"/>
+        <pin num="24" name="PB0" type="bidirectional"/>
+        <pin num="25" name="PB1" type="bidirectional"/>
+        <pin num="26" name="PB2" type="bidirectional"/>
+        <pin num="27" name="VSSA" type="power_in"/>
+        <pin num="28" name="VREF+" type="input"/>
+        <pin num="29" name="VDDA" type="power_in"/>
+        <pin num="30" name="PB10" type="bidirectional"/>
+        <pin num="31" name="VSS" type="passive"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB11" type="bidirectional"/>
+        <pin num="34" name="PB12" type="bidirectional"/>
+        <pin num="35" name="PB13" type="bidirectional"/>
+        <pin num="36" name="PB14" type="bidirectional"/>
+        <pin num="37" name="PB15" type="bidirectional"/>
+        <pin num="38" name="PC6" type="bidirectional"/>
+        <pin num="39" name="PC7" type="bidirectional"/>
+        <pin num="40" name="PC8" type="bidirectional"/>
+        <pin num="41" name="PC9" type="bidirectional"/>
+        <pin num="42" name="PA8" type="bidirectional"/>
+        <pin num="43" name="PA9" type="bidirectional"/>
+        <pin num="44" name="PA10" type="bidirectional"/>
+        <pin num="45" name="PA11" type="bidirectional"/>
+        <pin num="46" name="PA12" type="bidirectional"/>
+        <pin num="47" name="VSS" type="passive"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA13" type="bidirectional"/>
+        <pin num="50" name="PA14" type="bidirectional"/>
+        <pin num="51" name="PA15" type="bidirectional"/>
+        <pin num="52" name="PC10" type="bidirectional"/>
+        <pin num="53" name="PC11" type="bidirectional"/>
+        <pin num="54" name="PC12" type="bidirectional"/>
+        <pin num="55" name="PD2" type="bidirectional"/>
+        <pin num="56" name="PB3" type="bidirectional"/>
+        <pin num="57" name="PB4" type="bidirectional"/>
+        <pin num="58" name="PB5" type="bidirectional"/>
+        <pin num="59" name="PB6" type="bidirectional"/>
+        <pin num="60" name="PB7" type="bidirectional"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="passive"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="SW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="USB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove" part="XO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Glove">
+      <uri>./Glove.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3" class="Default">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U14" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="3V3_SENSOR" class="Default">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U10" pin="7" pinfunction="REF1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U11" pin="7" pinfunction="REF1" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U12" pin="7" pinfunction="REF1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="QOD" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U4" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="12" pinfunction="CSB" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Y1" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="Y1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="ADC_CLK_TIMER" class="Default">
+      <node ref="U1" pin="62" pinfunction="PB9" pintype="bidirectional"/>
+      <node ref="U4" pin="17" pinfunction="2A0" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="1A0" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="1A1" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="1A2" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="1A3" pintype="input"/>
+    </net>
+    <net code="4" name="BOOT0" class="Default">
+      <node ref="R52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="CC1" class="Default">
+      <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="CC2" class="Default">
+      <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="CLK1" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="CLK1_RAW" class="Default">
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="1Y0" pintype="tri_state"/>
+    </net>
+    <net code="9" name="CLK2" class="Default">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="CLK2_RAW" class="Default">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="1Y1" pintype="tri_state"/>
+    </net>
+    <net code="11" name="CLK3" class="Default">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="CLK3_RAW" class="Default">
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="1Y2" pintype="tri_state"/>
+    </net>
+    <net code="13" name="CLK4" class="Default">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="CLK4_RAW" class="Default">
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="1Y3" pintype="tri_state"/>
+    </net>
+    <net code="15" name="CLK5" class="Default">
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="CLK5_RAW" class="Default">
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="2Y0" pintype="tri_state"/>
+    </net>
+    <net code="17" name="CLK_MAIN" class="Default">
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="18" name="CS1" class="Default">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="CS1_RAW" class="Default">
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="CS2" class="Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="CS2_RAW" class="Default">
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="CS3" class="Default">
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="CS3_RAW" class="Default">
+      <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="CS4" class="Default">
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="CS4_RAW" class="Default">
+      <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="CS5" class="Default">
+      <node ref="J5" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="CS5_RAW" class="Default">
+      <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="PC10" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="DRDY1" class="Default">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="DRDY2" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="DRDY3" class="Default">
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="DRDY4" class="Default">
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="DRDY5" class="Default">
+      <node ref="J5" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J6" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R51" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R53" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="63" pinfunction="VSS" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="6" pinfunction="REF2" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="6" pinfunction="REF2" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="6" pinfunction="REF2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="1OE" pintype="input"/>
+      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="19" pinfunction="2OE" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="1OE" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="2A3" pintype="input"/>
+      <node ref="U5" pin="19" pinfunction="2OE" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="SDO" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="34" name="HSE_IN" class="Default">
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PF0" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="I2C_SCL" class="Default">
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PA9" pintype="bidirectional"/>
+      <node ref="U6" pin="13" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="36" name="I2C_SDA" class="Default">
+      <node ref="R41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U6" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="IMON_X" class="Default">
+      <node ref="R44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="8" pintype="output"/>
+    </net>
+    <net code="38" name="IMON_Y" class="Default">
+      <node ref="R47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U11" pin="8" pintype="output"/>
+    </net>
+    <net code="39" name="IMON_Z" class="Default">
+      <node ref="R50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="8" pintype="output"/>
+    </net>
+    <net code="40" name="IMU_INT" class="Default">
+      <node ref="U1" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="41" name="ISENSE_X" class="Default">
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="ISENSE_Y" class="Default">
+      <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="ISENSE_Z" class="Default">
+      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R50" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="MCU_DM" class="Default">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="MCU_DP" class="Default">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="MISO1" class="Default">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="47" name="MISO2" class="Default">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="48" name="MISO3" class="Default">
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="49" name="MISO4" class="Default">
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R34" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="MISO5" class="Default">
+      <node ref="J5" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="MOSI1" class="Default">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="52" name="MOSI1_RAW" class="Default">
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="1Y2" pintype="tri_state"/>
+    </net>
+    <net code="53" name="MOSI2" class="Default">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="MOSI2_RAW" class="Default">
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="1Y3" pintype="tri_state"/>
+    </net>
+    <net code="55" name="MOSI3" class="Default">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="MOSI3_RAW" class="Default">
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="2Y0" pintype="tri_state"/>
+    </net>
+    <net code="57" name="MOSI4" class="Default">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="58" name="MOSI4_RAW" class="Default">
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="2Y1" pintype="tri_state"/>
+    </net>
+    <net code="59" name="MOSI5" class="Default">
+      <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="MOSI5_RAW" class="Default">
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="2Y2" pintype="tri_state"/>
+    </net>
+    <net code="61" name="NRST" class="Default">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PG10" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="SCLK1" class="Default">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="SCLK1_RAW" class="Default">
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="2Y1" pintype="tri_state"/>
+    </net>
+    <net code="64" name="SCLK2" class="Default">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="SCLK2_RAW" class="Default">
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="2Y2" pintype="tri_state"/>
+    </net>
+    <net code="66" name="SCLK3" class="Default">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="SCLK3_RAW" class="Default">
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="2Y3" pintype="tri_state"/>
+    </net>
+    <net code="68" name="SCLK4" class="Default">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="69" name="SCLK4_RAW" class="Default">
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="1Y0" pintype="tri_state"/>
+    </net>
+    <net code="70" name="SCLK5" class="Default">
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="71" name="SCLK5_RAW" class="Default">
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="1Y1" pintype="tri_state"/>
+    </net>
+    <net code="72" name="SENSOR_ENABLE" class="Default">
+      <node ref="R53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="PB5" pintype="bidirectional"/>
+      <node ref="U14" pin="3" pinfunction="ON" pintype="input"/>
+    </net>
+    <net code="73" name="SPI2_MISO" class="Default">
+      <node ref="R34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="SPI2_MOSI" class="Default">
+      <node ref="U1" pin="37" pinfunction="PB15" pintype="bidirectional"/>
+      <node ref="U5" pin="13" pinfunction="2A2" pintype="input"/>
+      <node ref="U5" pin="15" pinfunction="2A1" pintype="input"/>
+    </net>
+    <net code="75" name="SPI2_SCLK" class="Default">
+      <node ref="U1" pin="35" pinfunction="PB13" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="1A0" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="1A1" pintype="input"/>
+    </net>
+    <net code="76" name="SPI_MISO" class="Default">
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="SPI_MOSI" class="Default">
+      <node ref="U1" pin="21" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U5" pin="17" pinfunction="2A0" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="1A2" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="1A3" pintype="input"/>
+    </net>
+    <net code="78" name="SPI_SCLK" class="Default">
+      <node ref="U1" pin="56" pinfunction="PB3" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="2A3" pintype="input"/>
+      <node ref="U4" pin="13" pinfunction="2A2" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="2A1" pintype="input"/>
+    </net>
+    <net code="79" name="SWCLK" class="Default">
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="SWDIO" class="Default">
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="SYNC1" class="Default">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="SYNC2" class="Default">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="SYNC3" class="Default">
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="84" name="SYNC4" class="Default">
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="85" name="SYNC5" class="Default">
+      <node ref="J5" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="86" name="SYNC_RAW" class="Default">
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="TX_ENABLE" class="Default">
+      <node ref="R51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="U7" pin="7" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U8" pin="7" pinfunction="~{SLEEP}" pintype="input"/>
+      <node ref="U9" pin="7" pinfunction="~{SLEEP}" pintype="input"/>
+    </net>
+    <net code="88" name="TX_X_A" class="Default">
+      <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="89" name="TX_X_B" class="Default">
+      <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="90" name="TX_Y_A" class="Default">
+      <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional"/>
+      <node ref="U8" pin="6" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="91" name="TX_Y_B" class="Default">
+      <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional"/>
+      <node ref="U8" pin="5" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="92" name="TX_Z_A" class="Default">
+      <node ref="U1" pin="22" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U9" pin="6" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="93" name="TX_Z_B" class="Default">
+      <node ref="U1" pin="23" pinfunction="PC5" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="94" name="USB_DM" class="Default">
+      <node ref="J6" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J6" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="95" name="USB_DP" class="Default">
+      <node ref="J6" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J6" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="96" name="VBUS" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J6" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="VM" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VM" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="97" name="VDDA" class="Default">
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="VREF+" pintype="input"/>
+      <node ref="U1" pin="29" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="98" name="X_COILN" class="Default">
+      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="99" name="X_COILP" class="Default">
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R42" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="100" name="X_OUT1" class="Default">
+      <node ref="R42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="101" name="X_OUT2" class="Default">
+      <node ref="R43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="-" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="102" name="Y_COILN" class="Default">
+      <node ref="J9" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="103" name="Y_COILP" class="Default">
+      <node ref="J9" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R45" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="104" name="Y_OUT1" class="Default">
+      <node ref="R45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="105" name="Y_OUT2" class="Default">
+      <node ref="R46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="106" name="Z_COILN" class="Default">
+      <node ref="J9" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="107" name="Z_COILP" class="Default">
+      <node ref="J9" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R48" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="108" name="Z_OUT1" class="Default">
+      <node ref="R48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="109" name="Z_OUT2" class="Default">
+      <node ref="R49" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="110" name="unconnected-(J6-SBU1-PadA8)" class="Default">
+      <node ref="J6" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J6-SBU2-PadB8)" class="Default">
+      <node ref="J6" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U1-PA2-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U1-PA3-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U1-PA5-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U1-PA10-Pad44)" class="Default">
+      <node ref="U1" pin="44" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U1-PA15-Pad51)" class="Default">
+      <node ref="U1" pin="51" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U1-PB4-Pad57)" class="Default">
+      <node ref="U1" pin="57" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U1-PB10-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1-PB11-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U1-PB12-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U1-PC12-Pad54)" class="Default">
+      <node ref="U1" pin="54" pinfunction="PC12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U1-PC14-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U1-PC15-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U1-PF1-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="PF1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U3-NC-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U5-2Y3-Pad9)" class="Default">
+      <node ref="U5" pin="9" pinfunction="2Y3" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U6-INT2-Pad9)" class="Default">
+      <node ref="U6" pin="9" pinfunction="INT2" pintype="output+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U6-NC-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U6-NC-Pad3)" class="Default">
+      <node ref="U6" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U6-NC-Pad10)" class="Default">
+      <node ref="U6" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U6-NC-Pad11)" class="Default">
+      <node ref="U6" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U10-GND-Pad1)" class="Default">
+      <node ref="U10" pin="1" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U11-GND-Pad1)" class="Default">
+      <node ref="U11" pin="1" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U12-GND-Pad1)" class="Default">
+      <node ref="U12" pin="1" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U14-NC-Pad4)" class="Default">
+      <node ref="U14" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

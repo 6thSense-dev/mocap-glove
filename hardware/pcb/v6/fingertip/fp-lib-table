@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Glove") (type "KiCad") (uri "${KIPRJMOD}/Glove.pretty") (options "") (descr "V3 custom footprints")))

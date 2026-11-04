@@ -29,3 +29,7 @@ Three.js and ST firmware dependencies retain their upstream license files. No bl
 `node control-panel/test-aero-kinematics.cjs`
 
 `node control-panel/test-hand-view-frame.cjs`
+
+## PCB design files
+
+[Complete V6 PCB projects and manufacturing files](hardware/pcb/v6/README.md): hand hub, fingertip flex and source carrier.

@@ -1,0 +1,99 @@
+{
+  "board": "source-carrier",
+  "size_mm": [
+    28,
+    28
+  ],
+  "parts": [
+    {
+      "key": "J2",
+      "ref": "L1",
+      "value": "X 80 turns AWG36",
+      "nets": {
+        "1": "XP",
+        "2": "XN"
+      },
+      "x": 2.0,
+      "y": 7.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:WirePair_SourceAssembly",
+      "mpn": "CUSTOM_WOUND_X",
+      "note": "Custom 80-turn AWG36 air-core winding; 6mm axial length, 0.30mm radial build; radii X8/Y9.5/Z11mm; measure R/L and calibrate.",
+      "group": "Three-axis windings",
+      "uuid": "9e8b40cd-079b-5a59-9db6-61068a9589f2"
+    },
+    {
+      "key": "J2",
+      "ref": "L2",
+      "value": "Y 80 turns AWG36",
+      "nets": {
+        "1": "YP",
+        "2": "YN"
+      },
+      "x": 26.0,
+      "y": 7.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:WirePair",
+      "mpn": "CUSTOM_WOUND_Y",
+      "note": "Custom 80-turn AWG36 air-core winding; 6mm axial length, 0.30mm radial build; radii X8/Y9.5/Z11mm; measure R/L and calibrate.",
+      "group": "Three-axis windings",
+      "uuid": "dd7f42d9-f623-5fa9-a068-606376ffa9c9"
+    },
+    {
+      "key": "J2",
+      "ref": "L3",
+      "value": "Z 80 turns AWG36",
+      "nets": {
+        "1": "ZP",
+        "2": "ZN"
+      },
+      "x": 2.0,
+      "y": 17.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:WirePair",
+      "mpn": "CUSTOM_WOUND_Z",
+      "note": "Custom 80-turn AWG36 air-core winding; 6mm axial length, 0.30mm radial build; radii X8/Y9.5/Z11mm; measure R/L and calibrate.",
+      "group": "Three-axis windings",
+      "uuid": "322e472d-5d5b-5b27-8ca2-7ad4c7b341b1"
+    },
+    {
+      "key": "J6",
+      "ref": "J1",
+      "value": "BM06B-SRSS-TB",
+      "nets": {
+        "1": "XP",
+        "2": "XN",
+        "3": "YP",
+        "4": "YN",
+        "5": "ZP",
+        "6": "ZN"
+      },
+      "x": 14.0,
+      "y": 25.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical",
+      "mpn": "BM06B-SRSS-TB(LF)(SN)",
+      "note": "",
+      "group": "Three-axis windings",
+      "uuid": "55e65732-06bb-5ad8-aa79-598c88e76838"
+    }
+  ],
+  "bus": {
+    "1": "3V3",
+    "2": "GND",
+    "3": "CLK",
+    "4": "GND",
+    "5": "SCLK",
+    "6": "MOSI",
+    "7": "GND",
+    "8": "MISO",
+    "9": "CS",
+    "10": "DRDY",
+    "11": "SYNC",
+    "12": "GND"
+  }
+}

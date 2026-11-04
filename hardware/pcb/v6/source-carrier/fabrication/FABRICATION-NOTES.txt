@@ -1,0 +1,4 @@
+V6 ENGINEERING PROTOTYPE CANDIDATE — FACTORY DFM / ASSEMBLY REVIEW REQUIRED
+Local files only. Existing V5 JLC checkout is obsolete. No programming or functional testing requested from assembler.
+BOM/CPL are native coordinates; supplier must verify pin 1 and bottom-side rotation, particularly new U14. Stock is not reserved.
+28 mm carrier, two layers, 1.0 mm FR4, ENIG, BLACK solder mask. Only J1 is factory SMT. Three external windings L1/L2/L3 are user assembly, not populated by the SMT service.

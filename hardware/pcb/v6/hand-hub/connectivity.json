@@ -1,0 +1,2191 @@
+{
+  "board": "hand-hub",
+  "size_mm": [
+    52,
+    48
+  ],
+  "parts": [
+    {
+      "key": "USB",
+      "ref": "J6",
+      "value": "USB-C USB2",
+      "nets": {
+        "A1": "GND",
+        "A4": "VBUS",
+        "A5": "CC1",
+        "A6": "USB_DP",
+        "A7": "USB_DM",
+        "A9": "VBUS",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "VBUS",
+        "B5": "CC2",
+        "B6": "USB_DP",
+        "B7": "USB_DM",
+        "B9": "VBUS",
+        "B12": "GND",
+        "S1": "GND"
+      },
+      "x": 25.0,
+      "y": 43.8,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:USB_C_HRO_Envelope",
+      "mpn": "TYPE-C-31-M-12",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "99b35207-84f9-5c9f-a70e-a5ffec04f3e5"
+    },
+    {
+      "key": "R",
+      "ref": "R1",
+      "value": "5.1k",
+      "nets": {
+        "1": "CC1",
+        "2": "GND"
+      },
+      "x": 17.0,
+      "y": 43.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "5.1k",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "950fabdc-3616-51f6-8b19-e840cb7a6227"
+    },
+    {
+      "key": "R",
+      "ref": "R2",
+      "value": "5.1k",
+      "nets": {
+        "1": "CC2",
+        "2": "GND"
+      },
+      "x": 17.0,
+      "y": 45.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "5.1k",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "494f3507-dcc1-56be-b8af-872145c7fc5d"
+    },
+    {
+      "key": "ESD",
+      "ref": "U2",
+      "value": "USBLC6-2SC6",
+      "nets": {
+        "1": "USB_DP",
+        "2": "GND",
+        "3": "USB_DM",
+        "4": "USB_DM",
+        "5": "VBUS",
+        "6": "USB_DP"
+      },
+      "x": 25.0,
+      "y": 36.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "USBLC6-2SC6",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "8e7d1b2e-016f-5d35-bd9f-af058a575d9e"
+    },
+    {
+      "key": "LDO",
+      "ref": "U3",
+      "value": "TLV75533PDBVR",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND",
+        "3": "VBUS",
+        "5": "3V3"
+      },
+      "x": 13.5,
+      "y": 42.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "TLV75533PDBVR",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "873a38c0-d157-5d3b-83b2-e66da676e81d"
+    },
+    {
+      "key": "C",
+      "ref": "C1",
+      "value": "1u",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 9.5,
+      "y": 40.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "1c12846a-9cdc-5f19-9d75-7dad00374d99"
+    },
+    {
+      "key": "C",
+      "ref": "C2",
+      "value": "4.7u",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 9.5,
+      "y": 43.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "4.7u",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "199e42ea-9274-5dd3-b179-5a83d1493fa7"
+    },
+    {
+      "key": "R",
+      "ref": "R3",
+      "value": "0",
+      "nets": {
+        "1": "USB_DP",
+        "2": "MCU_DP"
+      },
+      "x": 28.0,
+      "y": 33.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "0603WAF0000T5E",
+      "note": "C21189; 0603 zero-ohm link. STM32 integrated USB termination.",
+      "group": "Power USB",
+      "uuid": "a398855c-fe18-5c01-8321-72a54db4c706"
+    },
+    {
+      "key": "R",
+      "ref": "R4",
+      "value": "0",
+      "nets": {
+        "1": "USB_DM",
+        "2": "MCU_DM"
+      },
+      "x": 25.0,
+      "y": 33.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "0603WAF0000T5E",
+      "note": "C21189; 0603 zero-ohm link. STM32 integrated USB termination.",
+      "group": "Power USB",
+      "uuid": "cab6dafd-8f4a-5a8f-9181-aa1e2db25963"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG0",
+      "value": "VBUS",
+      "nets": {
+        "1": "VBUS"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "VBUS",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "0d91171b-4f76-5cd4-8f87-c4cdea241e69"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG1",
+      "value": "GND",
+      "nets": {
+        "1": "GND"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "GND",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "8e799382-c38c-56e4-8577-61e4910189bd"
+    },
+    {
+      "key": "FLAG",
+      "ref": "#FLG2",
+      "value": "VDDA",
+      "nets": {
+        "1": "VDDA"
+      },
+      "x": 0,
+      "y": 0,
+      "angle": 0,
+      "side": "F",
+      "fp": "",
+      "mpn": "VDDA",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "cda107e9-2b2a-56bb-8440-f02911587c98"
+    },
+    {
+      "key": "MCU",
+      "ref": "U1",
+      "value": "STM32G474RET6",
+      "nets": {
+        "8": "TX_X_A",
+        "9": "TX_X_B",
+        "10": "TX_Y_A",
+        "11": "TX_Y_B",
+        "22": "TX_Z_A",
+        "23": "TX_Z_B",
+        "38": "CS1_RAW",
+        "39": "CS2_RAW",
+        "40": "CS3_RAW",
+        "41": "CS4_RAW",
+        "52": "CS5_RAW",
+        "53": "DRDY1",
+        "55": "DRDY3",
+        "24": "DRDY4",
+        "25": "DRDY5",
+        "20": "SPI_MISO",
+        "21": "SPI_MOSI",
+        "35": "SPI2_SCLK",
+        "36": "SPI2_MISO",
+        "37": "SPI2_MOSI",
+        "42": "I2C_SDA",
+        "43": "I2C_SCL",
+        "45": "MCU_DM",
+        "46": "MCU_DP",
+        "49": "SWDIO",
+        "50": "SWCLK",
+        "61": "BOOT0",
+        "62": "ADC_CLK_TIMER",
+        "2": "IMU_INT",
+        "26": "TX_ENABLE",
+        "5": "HSE_IN",
+        "7": "NRST",
+        "12": "ISENSE_X",
+        "13": "ISENSE_Y",
+        "28": "VDDA",
+        "1": "3V3",
+        "16": "3V3",
+        "32": "3V3",
+        "15": "GND",
+        "31": "GND",
+        "47": "GND",
+        "63": "GND",
+        "48": "3V3",
+        "27": "GND",
+        "64": "3V3",
+        "29": "VDDA",
+        "60": "DRDY2",
+        "18": "ISENSE_Z",
+        "58": "SENSOR_ENABLE",
+        "59": "SYNC_RAW",
+        "56": "SPI_SCLK"
+      },
+      "x": 25.0,
+      "y": 23.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "mpn": "STM32G474RET6",
+      "note": "",
+      "group": "Controller",
+      "uuid": "3572fad6-5ee5-59ca-8f3c-575f0f64ebef"
+    },
+    {
+      "key": "C",
+      "ref": "C3",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 17.0,
+      "y": 18.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "2053e6eb-e0cb-5216-b7a8-efa4e74346b0"
+    },
+    {
+      "key": "C",
+      "ref": "C4",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 33.0,
+      "y": 18.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "f2fe014a-f2df-58f3-aedd-37f1c5f6b273"
+    },
+    {
+      "key": "C",
+      "ref": "C5",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 33.0,
+      "y": 29.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "73348767-5f03-5e1b-aa5c-37f43f839860"
+    },
+    {
+      "key": "C",
+      "ref": "C6",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 17.0,
+      "y": 29.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "9539041f-9179-5a20-8f36-fb9c61a6edaf"
+    },
+    {
+      "key": "C",
+      "ref": "C7",
+      "value": "4.7u",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 20.0,
+      "y": 32.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "4.7u",
+      "note": "",
+      "group": "Controller",
+      "uuid": "d333b0bc-a304-52a0-8914-228db2754b3e"
+    },
+    {
+      "key": "R",
+      "ref": "R5",
+      "value": "10",
+      "nets": {
+        "1": "3V3",
+        "2": "VDDA"
+      },
+      "x": 34.5,
+      "y": 32.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10",
+      "note": "",
+      "group": "Controller",
+      "uuid": "d5d73bfa-6fa9-59bb-897b-6ee0bc059388"
+    },
+    {
+      "key": "C",
+      "ref": "C8",
+      "value": "1u",
+      "nets": {
+        "1": "VDDA",
+        "2": "GND"
+      },
+      "x": 34.0,
+      "y": 30.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Controller",
+      "uuid": "885a0e57-f617-578d-a59c-aec9d6b51b79"
+    },
+    {
+      "key": "C",
+      "ref": "C9",
+      "value": "100n",
+      "nets": {
+        "1": "VDDA",
+        "2": "GND"
+      },
+      "x": 36.5,
+      "y": 32.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "ed9792ac-cbf9-5e58-b65e-df51df8e637f"
+    },
+    {
+      "key": "R",
+      "ref": "R6",
+      "value": "10k",
+      "nets": {
+        "1": "3V3",
+        "2": "NRST"
+      },
+      "x": 17.0,
+      "y": 32.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "Controller",
+      "uuid": "c1f664ee-8671-5a07-8df6-06ac22dec05c"
+    },
+    {
+      "key": "C",
+      "ref": "C10",
+      "value": "100n",
+      "nets": {
+        "1": "NRST",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 32.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Controller",
+      "uuid": "38ecf61f-1d7a-5e20-b968-1ff85f11d003"
+    },
+    {
+      "key": "J6",
+      "ref": "J7",
+      "value": "PH1.27-02-03PWS",
+      "nets": {
+        "1": "3V3",
+        "2": "SWDIO",
+        "3": "GND",
+        "4": "SWCLK",
+        "5": "NRST",
+        "6": "GND"
+      },
+      "x": 4.0,
+      "y": 41.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:XUNPU_PH127_2x03_SMD",
+      "mpn": "PH1.27-02-03PWS",
+      "note": "C41360875; revised to SMT. Pinout remains 3V3/SWDIO/GND/SWCLK/NRST/GND; USB DFU remains primary flashing.",
+      "group": "Controller",
+      "uuid": "40cc20d5-fc47-5a70-a954-9dfc9ff818f4"
+    },
+    {
+      "key": "XO",
+      "ref": "Y1",
+      "value": "3N08192G33YC",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK_MAIN",
+        "4": "3V3_SENSOR"
+      },
+      "x": 8.0,
+      "y": 34.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Glove:SJK_3N_3225",
+      "mpn": "3N08192G33YC",
+      "note": "V6 switched supply; drives only MCU HSE through R7. MCU regenerates ADC clock on PB9 TIM4_CH4.",
+      "group": "Finger Interfaces",
+      "uuid": "f4afa90c-54b8-5b8d-a89c-9723c5cc0d9a"
+    },
+    {
+      "key": "C",
+      "ref": "C11",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 4.0,
+      "y": 34.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "e5cc0499-40db-5782-98ed-3e387d8b83b4"
+    },
+    {
+      "key": "R",
+      "ref": "R7",
+      "value": "33",
+      "nets": {
+        "1": "CLK_MAIN",
+        "2": "HSE_IN"
+      },
+      "x": 22.0,
+      "y": 30.8,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "0fc41f1e-c143-5ae2-a016-fa5c8f9bbd5a"
+    },
+    {
+      "key": "BUF",
+      "ref": "U4",
+      "value": "SN74LVC244APWR",
+      "nets": {
+        "1": "GND",
+        "19": "GND",
+        "20": "3V3_SENSOR",
+        "10": "GND",
+        "2": "ADC_CLK_TIMER",
+        "4": "ADC_CLK_TIMER",
+        "6": "ADC_CLK_TIMER",
+        "8": "ADC_CLK_TIMER",
+        "17": "ADC_CLK_TIMER",
+        "15": "SPI_SCLK",
+        "5": "SCLK1_RAW",
+        "13": "SPI_SCLK",
+        "7": "SCLK2_RAW",
+        "11": "SPI_SCLK",
+        "9": "SCLK3_RAW",
+        "18": "CLK1_RAW",
+        "16": "CLK2_RAW",
+        "14": "CLK3_RAW",
+        "12": "CLK4_RAW",
+        "3": "CLK5_RAW"
+      },
+      "x": 9.0,
+      "y": 15.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "mpn": "SN74LVC244APWR",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "5bbb7084-d859-5aee-80ed-765cf3e68c72"
+    },
+    {
+      "key": "C",
+      "ref": "C12",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 6.0,
+      "y": 11.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "b566893a-cef1-5f99-b7c2-84432ac98712"
+    },
+    {
+      "key": "R",
+      "ref": "R8",
+      "value": "120",
+      "nets": {
+        "1": "CLK1_RAW",
+        "2": "CLK1"
+      },
+      "x": 14.2,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "65435032-1267-5294-8f72-9ce94e8ca7b1"
+    },
+    {
+      "key": "R",
+      "ref": "R9",
+      "value": "120",
+      "nets": {
+        "1": "CLK2_RAW",
+        "2": "CLK2"
+      },
+      "x": 14.2,
+      "y": 12.1,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "e9d2147f-a22f-5351-ad7d-a584825b73e1"
+    },
+    {
+      "key": "R",
+      "ref": "R10",
+      "value": "120",
+      "nets": {
+        "1": "CLK3_RAW",
+        "2": "CLK3"
+      },
+      "x": 14.2,
+      "y": 13.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "497230ef-1b56-504e-8c4c-7ca184e2ebdc"
+    },
+    {
+      "key": "R",
+      "ref": "R11",
+      "value": "120",
+      "nets": {
+        "1": "CLK4_RAW",
+        "2": "CLK4"
+      },
+      "x": 14.2,
+      "y": 14.3,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "928ce7d2-0342-5d4d-b920-562d47344ce0"
+    },
+    {
+      "key": "R",
+      "ref": "R12",
+      "value": "120",
+      "nets": {
+        "1": "CLK5_RAW",
+        "2": "CLK5"
+      },
+      "x": 14.2,
+      "y": 15.4,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "58a844cb-2696-5417-8ed4-40c0bded28d2"
+    },
+    {
+      "key": "R",
+      "ref": "R13",
+      "value": "120",
+      "nets": {
+        "1": "SCLK1_RAW",
+        "2": "SCLK1"
+      },
+      "x": 14.2,
+      "y": 16.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "d6106f1c-9e50-5d23-a6ca-6e802f05e527"
+    },
+    {
+      "key": "R",
+      "ref": "R14",
+      "value": "120",
+      "nets": {
+        "1": "SCLK2_RAW",
+        "2": "SCLK2"
+      },
+      "x": 14.2,
+      "y": 17.6,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "b19f406a-daa8-5785-9b5c-033c9c34f550"
+    },
+    {
+      "key": "R",
+      "ref": "R15",
+      "value": "120",
+      "nets": {
+        "1": "SCLK3_RAW",
+        "2": "SCLK3"
+      },
+      "x": 14.2,
+      "y": 18.7,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "28d41ea1-11fe-5471-89de-4dd54135d37e"
+    },
+    {
+      "key": "BUF",
+      "ref": "U5",
+      "value": "SN74LVC244APWR",
+      "nets": {
+        "1": "GND",
+        "19": "GND",
+        "20": "3V3_SENSOR",
+        "10": "GND",
+        "2": "SPI2_SCLK",
+        "18": "SCLK4_RAW",
+        "4": "SPI2_SCLK",
+        "16": "SCLK5_RAW",
+        "6": "SPI_MOSI",
+        "14": "MOSI1_RAW",
+        "8": "SPI_MOSI",
+        "12": "MOSI2_RAW",
+        "17": "SPI_MOSI",
+        "3": "MOSI3_RAW",
+        "15": "SPI2_MOSI",
+        "5": "MOSI4_RAW",
+        "13": "SPI2_MOSI",
+        "7": "MOSI5_RAW",
+        "11": "GND"
+      },
+      "x": 9.0,
+      "y": 25.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "mpn": "SN74LVC244APWR",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "4294f855-00ee-5917-9ba9-70f671baa7d5"
+    },
+    {
+      "key": "C",
+      "ref": "C13",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 6.0,
+      "y": 21.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "580fdc5b-81fa-5e88-aa5a-13b9028b7763"
+    },
+    {
+      "key": "R",
+      "ref": "R16",
+      "value": "120",
+      "nets": {
+        "1": "SCLK4_RAW",
+        "2": "SCLK4"
+      },
+      "x": 14.2,
+      "y": 21.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "467e2bcb-0ea6-5369-9a50-b064ea8507a1"
+    },
+    {
+      "key": "R",
+      "ref": "R17",
+      "value": "120",
+      "nets": {
+        "1": "SCLK5_RAW",
+        "2": "SCLK5"
+      },
+      "x": 14.2,
+      "y": 22.1,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "248afabf-64e1-5350-b75c-3438555b93e9"
+    },
+    {
+      "key": "R",
+      "ref": "R18",
+      "value": "120",
+      "nets": {
+        "1": "MOSI1_RAW",
+        "2": "MOSI1"
+      },
+      "x": 14.2,
+      "y": 23.2,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "3692a98b-a424-51f6-b6f3-4bcd3bf22a85"
+    },
+    {
+      "key": "R",
+      "ref": "R19",
+      "value": "120",
+      "nets": {
+        "1": "MOSI2_RAW",
+        "2": "MOSI2"
+      },
+      "x": 14.2,
+      "y": 24.3,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "28435f94-f3af-5c2c-a0b0-66af3eda1392"
+    },
+    {
+      "key": "R",
+      "ref": "R20",
+      "value": "120",
+      "nets": {
+        "1": "MOSI3_RAW",
+        "2": "MOSI3"
+      },
+      "x": 14.2,
+      "y": 25.4,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "14538c7b-4760-51ac-a3d8-1aed0fe278b7"
+    },
+    {
+      "key": "R",
+      "ref": "R21",
+      "value": "120",
+      "nets": {
+        "1": "MOSI4_RAW",
+        "2": "MOSI4"
+      },
+      "x": 14.2,
+      "y": 26.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "f34a40c2-5bdd-564c-bea0-e4e7bcbb0624"
+    },
+    {
+      "key": "R",
+      "ref": "R22",
+      "value": "120",
+      "nets": {
+        "1": "MOSI5_RAW",
+        "2": "MOSI5"
+      },
+      "x": 14.2,
+      "y": 27.6,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "RC0402FR-07120RL",
+      "note": "C114758. V6 source damping; parametric TI-buffer/flex simulation. Actual cable verification still required.",
+      "group": "Finger Interfaces",
+      "uuid": "deb7a9bb-2e87-5047-9d81-98dd435f9d1d"
+    },
+    {
+      "key": "J12",
+      "ref": "J1",
+      "value": "FH12-12S-0.5SH(55)",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK1",
+        "4": "GND",
+        "5": "SCLK1",
+        "6": "MOSI1",
+        "7": "GND",
+        "8": "MISO1",
+        "9": "CS1",
+        "10": "DRDY1",
+        "11": "SYNC1",
+        "12": "GND"
+      },
+      "x": 5.2,
+      "y": 24.0,
+      "angle": -90.0,
+      "side": "F",
+      "fp": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-12S-0.5SH(55)",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "ccf16aa1-d66f-5eb6-88dc-6d62504d77ce"
+    },
+    {
+      "key": "R",
+      "ref": "R23",
+      "value": "47",
+      "nets": {
+        "1": "CS1_RAW",
+        "2": "CS1"
+      },
+      "x": 18.0,
+      "y": 9.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "3c98a4fb-16b4-5c11-b398-656af2a57038"
+    },
+    {
+      "key": "R",
+      "ref": "R24",
+      "value": "47",
+      "nets": {
+        "1": "SYNC_RAW",
+        "2": "SYNC1"
+      },
+      "x": 18.0,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "08c6bb41-0faa-553e-9b83-546658fbff96"
+    },
+    {
+      "key": "R",
+      "ref": "R25",
+      "value": "33",
+      "nets": {
+        "1": "MISO1",
+        "2": "SPI_MISO"
+      },
+      "x": 18.0,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "2f4b94b6-5879-5c9a-8270-cdc14f4383dd"
+    },
+    {
+      "key": "J12",
+      "ref": "J2",
+      "value": "FH12-12S-0.5SH(55)",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK2",
+        "4": "GND",
+        "5": "SCLK2",
+        "6": "MOSI2",
+        "7": "GND",
+        "8": "MISO2",
+        "9": "CS2",
+        "10": "DRDY2",
+        "11": "SYNC2",
+        "12": "GND"
+      },
+      "x": 7.0,
+      "y": 5.3,
+      "angle": 180.0,
+      "side": "F",
+      "fp": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-12S-0.5SH(55)",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "5019f5ad-e327-503d-b560-c6b87dcb9e81"
+    },
+    {
+      "key": "R",
+      "ref": "R26",
+      "value": "47",
+      "nets": {
+        "1": "CS2_RAW",
+        "2": "CS2"
+      },
+      "x": 22.4,
+      "y": 9.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "4f147f5c-4657-50a8-8773-60641e4fe7db"
+    },
+    {
+      "key": "R",
+      "ref": "R27",
+      "value": "47",
+      "nets": {
+        "1": "SYNC_RAW",
+        "2": "SYNC2"
+      },
+      "x": 22.4,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "e52e303d-10ec-5e09-bb30-e23edc8b5fd1"
+    },
+    {
+      "key": "R",
+      "ref": "R28",
+      "value": "33",
+      "nets": {
+        "1": "MISO2",
+        "2": "SPI_MISO"
+      },
+      "x": 22.4,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "4a285b50-5aeb-5f63-8e2d-41c7664f7962"
+    },
+    {
+      "key": "J12",
+      "ref": "J3",
+      "value": "FH12-12S-0.5SH(55)",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK3",
+        "4": "GND",
+        "5": "SCLK3",
+        "6": "MOSI3",
+        "7": "GND",
+        "8": "MISO3",
+        "9": "CS3",
+        "10": "DRDY3",
+        "11": "SYNC3",
+        "12": "GND"
+      },
+      "x": 19.5,
+      "y": 5.3,
+      "angle": 180.0,
+      "side": "F",
+      "fp": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-12S-0.5SH(55)",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "6adeeb32-b8bd-5f5e-a384-00f6b3ec72a4"
+    },
+    {
+      "key": "R",
+      "ref": "R29",
+      "value": "47",
+      "nets": {
+        "1": "CS3_RAW",
+        "2": "CS3"
+      },
+      "x": 26.8,
+      "y": 9.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "07a20ca8-b061-555c-9099-baa0946fdd7e"
+    },
+    {
+      "key": "R",
+      "ref": "R30",
+      "value": "47",
+      "nets": {
+        "1": "SYNC_RAW",
+        "2": "SYNC3"
+      },
+      "x": 26.8,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "a3080209-553b-555b-80ed-a6e202ec9cf5"
+    },
+    {
+      "key": "R",
+      "ref": "R31",
+      "value": "33",
+      "nets": {
+        "1": "MISO3",
+        "2": "SPI_MISO"
+      },
+      "x": 26.8,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "dd55a459-ade1-51d7-b852-3e30248d1c3b"
+    },
+    {
+      "key": "J12",
+      "ref": "J4",
+      "value": "FH12-12S-0.5SH(55)",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK4",
+        "4": "GND",
+        "5": "SCLK4",
+        "6": "MOSI4",
+        "7": "GND",
+        "8": "MISO4",
+        "9": "CS4",
+        "10": "DRDY4",
+        "11": "SYNC4",
+        "12": "GND"
+      },
+      "x": 32.0,
+      "y": 5.3,
+      "angle": 180.0,
+      "side": "F",
+      "fp": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-12S-0.5SH(55)",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "38835c00-da1f-525b-ad81-42e01ffbeaa5"
+    },
+    {
+      "key": "R",
+      "ref": "R32",
+      "value": "47",
+      "nets": {
+        "1": "CS4_RAW",
+        "2": "CS4"
+      },
+      "x": 31.2,
+      "y": 9.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "26d1b279-bad2-5dcd-a549-d6cbc0480653"
+    },
+    {
+      "key": "R",
+      "ref": "R33",
+      "value": "47",
+      "nets": {
+        "1": "SYNC_RAW",
+        "2": "SYNC4"
+      },
+      "x": 31.2,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "0525aeb8-81d9-525e-b353-ed552d0f6173"
+    },
+    {
+      "key": "R",
+      "ref": "R34",
+      "value": "33",
+      "nets": {
+        "1": "MISO4",
+        "2": "SPI2_MISO"
+      },
+      "x": 31.2,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "2bc93afe-56fd-5af8-8d4a-5e515d0fcf2b"
+    },
+    {
+      "key": "J12",
+      "ref": "J5",
+      "value": "FH12-12S-0.5SH(55)",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND",
+        "3": "CLK5",
+        "4": "GND",
+        "5": "SCLK5",
+        "6": "MOSI5",
+        "7": "GND",
+        "8": "MISO5",
+        "9": "CS5",
+        "10": "DRDY5",
+        "11": "SYNC5",
+        "12": "GND"
+      },
+      "x": 44.5,
+      "y": 5.3,
+      "angle": 180.0,
+      "side": "F",
+      "fp": "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-12S-0.5SH(55)",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "48e30c5e-eff6-5ef3-92fe-829892f05992"
+    },
+    {
+      "key": "R",
+      "ref": "R35",
+      "value": "47",
+      "nets": {
+        "1": "CS5_RAW",
+        "2": "CS5"
+      },
+      "x": 35.6,
+      "y": 9.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "bb7d2888-2106-5040-b942-7b2b03edc241"
+    },
+    {
+      "key": "R",
+      "ref": "R36",
+      "value": "47",
+      "nets": {
+        "1": "SYNC_RAW",
+        "2": "SYNC5"
+      },
+      "x": 35.6,
+      "y": 11.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "47",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "32b53e7b-6a89-5c64-8a70-e83b9182f078"
+    },
+    {
+      "key": "R",
+      "ref": "R37",
+      "value": "33",
+      "nets": {
+        "1": "MISO5",
+        "2": "SPI2_MISO"
+      },
+      "x": 35.6,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "33",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "2e8520f8-3b29-5ebc-aae8-53cb96dc9486"
+    },
+    {
+      "key": "R",
+      "ref": "R38",
+      "value": "100k",
+      "nets": {
+        "1": "SPI_MISO",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 17.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "f160f6a8-5923-56ae-8087-825572ad1861"
+    },
+    {
+      "key": "R",
+      "ref": "R39",
+      "value": "100k",
+      "nets": {
+        "1": "SPI2_MISO",
+        "2": "GND"
+      },
+      "x": 15.0,
+      "y": 19.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Finger Interfaces",
+      "uuid": "3266b8e1-a00b-5c8d-96e4-89e0ec5e0e59"
+    },
+    {
+      "key": "IMU",
+      "ref": "U6",
+      "value": "BMI323",
+      "nets": {
+        "1": "GND",
+        "4": "IMU_INT",
+        "5": "3V3_SENSOR",
+        "6": "GND",
+        "7": "GND",
+        "8": "3V3_SENSOR",
+        "12": "3V3_SENSOR",
+        "13": "I2C_SCL",
+        "14": "I2C_SDA"
+      },
+      "x": 37.0,
+      "y": 26.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm",
+      "mpn": "BMI323",
+      "note": "",
+      "group": "Hand IMU",
+      "uuid": "4cfa4096-f6d3-5a9b-85ef-aedd18ba9c68"
+    },
+    {
+      "key": "C",
+      "ref": "C14",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 37.0,
+      "y": 23.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Hand IMU",
+      "uuid": "130cef25-0d0a-521e-a03d-18986ac0ed75"
+    },
+    {
+      "key": "C",
+      "ref": "C15",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 39.0,
+      "y": 23.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Hand IMU",
+      "uuid": "523ff1d4-e75c-54a1-81ca-af037f0ef13d"
+    },
+    {
+      "key": "R",
+      "ref": "R40",
+      "value": "4.7k",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "I2C_SCL"
+      },
+      "x": 37.0,
+      "y": 29.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "4.7k",
+      "note": "",
+      "group": "Hand IMU",
+      "uuid": "6a57d043-9932-5d08-9fb7-b346e899ab15"
+    },
+    {
+      "key": "R",
+      "ref": "R41",
+      "value": "4.7k",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "I2C_SDA"
+      },
+      "x": 39.0,
+      "y": 29.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "4.7k",
+      "note": "",
+      "group": "Hand IMU",
+      "uuid": "a6e41630-b7f1-570b-bc94-2a59fa0fa858"
+    },
+    {
+      "key": "DRV",
+      "ref": "U7",
+      "value": "DRV8837DSGR",
+      "nets": {
+        "1": "VBUS",
+        "2": "X_OUT1",
+        "3": "X_OUT2",
+        "4": "GND",
+        "5": "TX_X_B",
+        "6": "TX_X_A",
+        "7": "TX_ENABLE",
+        "8": "3V3_SENSOR",
+        "9": "GND"
+      },
+      "x": 45.0,
+      "y": 15.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "mpn": "DRV8837DSGR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "0941c623-0e31-5940-a5c2-2e2432b722a3"
+    },
+    {
+      "key": "C",
+      "ref": "C16",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 13.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "74ef164e-cbd9-5ab0-a2c9-b043a5e934b5"
+    },
+    {
+      "key": "C",
+      "ref": "C17",
+      "value": "1u",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 15.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "1363c46f-a9ae-5dcc-bfc0-96fd25d3411f"
+    },
+    {
+      "key": "R",
+      "ref": "R42",
+      "value": "47 1W 1%",
+      "nets": {
+        "1": "X_OUT1",
+        "2": "X_COILP"
+      },
+      "x": 44.0,
+      "y": 11.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_2512_6332Metric",
+      "mpn": "FRR2512F47R0TS",
+      "note": "C49196864; 47 ohm 1W 1%, 2512.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "9cd34e46-5655-5706-949a-1ffe4f9d2c55"
+    },
+    {
+      "key": "R",
+      "ref": "R43",
+      "value": "0.2 0.1W 1%",
+      "nets": {
+        "1": "X_COILN",
+        "2": "X_OUT2"
+      },
+      "x": 41.0,
+      "y": 15.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RL0603FR-070R2L",
+      "note": "C723543; 0.2 ohm 0.1W 1%; calculated nominal loss <1.8mW, static shorted-coil case 2.53mW.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "44935158-aec6-50ad-9a36-a0b9368a8ef2"
+    },
+    {
+      "key": "CSA",
+      "ref": "U10",
+      "value": "INA240A1PWR",
+      "nets": {
+        "2": "X_COILN",
+        "3": "X_OUT2",
+        "4": "GND",
+        "5": "3V3_SENSOR",
+        "6": "GND",
+        "7": "3V3_SENSOR",
+        "8": "IMON_X"
+      },
+      "x": 35.0,
+      "y": 15.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "mpn": "INA240A1PWR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "8519763b-937b-58ff-880c-45a15d6bf327"
+    },
+    {
+      "key": "R",
+      "ref": "R44",
+      "value": "100",
+      "nets": {
+        "1": "IMON_X",
+        "2": "ISENSE_X"
+      },
+      "x": 31.0,
+      "y": 13.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "583565cc-e2c3-5216-8c1e-91231ecc6e93"
+    },
+    {
+      "key": "C",
+      "ref": "C18",
+      "value": "1n",
+      "nets": {
+        "1": "ISENSE_X",
+        "2": "GND"
+      },
+      "x": 29.0,
+      "y": 13.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "32733c0a-4718-5ed1-b48e-fd23517e704d"
+    },
+    {
+      "key": "C",
+      "ref": "C19",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 35.0,
+      "y": 18.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "dd37ab37-5786-5503-9886-bcb27c42bea0"
+    },
+    {
+      "key": "DRV",
+      "ref": "U8",
+      "value": "DRV8837DSGR",
+      "nets": {
+        "1": "VBUS",
+        "2": "Y_OUT1",
+        "3": "Y_OUT2",
+        "4": "GND",
+        "5": "TX_Y_B",
+        "6": "TX_Y_A",
+        "7": "TX_ENABLE",
+        "8": "3V3_SENSOR",
+        "9": "GND"
+      },
+      "x": 45.0,
+      "y": 24.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "mpn": "DRV8837DSGR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "843aa23d-a9da-5763-8241-2d3378f4cbe9"
+    },
+    {
+      "key": "C",
+      "ref": "C20",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 22.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "e83f0c91-c863-5e51-80e3-c763c7515a4a"
+    },
+    {
+      "key": "C",
+      "ref": "C21",
+      "value": "1u",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 24.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "aeaa206d-de46-5498-a1d4-c88acaf6d09a"
+    },
+    {
+      "key": "R",
+      "ref": "R45",
+      "value": "47 1W 1%",
+      "nets": {
+        "1": "Y_OUT1",
+        "2": "Y_COILP"
+      },
+      "x": 44.0,
+      "y": 20.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_2512_6332Metric",
+      "mpn": "FRR2512F47R0TS",
+      "note": "C49196864; 47 ohm 1W 1%, 2512.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "105132bb-2c45-5de6-993c-37eda40c2ad8"
+    },
+    {
+      "key": "R",
+      "ref": "R46",
+      "value": "0.2 0.1W 1%",
+      "nets": {
+        "1": "Y_COILN",
+        "2": "Y_OUT2"
+      },
+      "x": 41.0,
+      "y": 24.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RL0603FR-070R2L",
+      "note": "C723543; 0.2 ohm 0.1W 1%; calculated nominal loss <1.8mW, static shorted-coil case 2.53mW.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "c5228534-2032-58c5-9c9e-9a3ebfecff33"
+    },
+    {
+      "key": "CSA",
+      "ref": "U11",
+      "value": "INA240A1PWR",
+      "nets": {
+        "2": "Y_COILN",
+        "3": "Y_OUT2",
+        "4": "GND",
+        "5": "3V3_SENSOR",
+        "6": "GND",
+        "7": "3V3_SENSOR",
+        "8": "IMON_Y"
+      },
+      "x": 35.0,
+      "y": 24.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "mpn": "INA240A1PWR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "2b0cfb83-b82d-5f72-8db0-386d2f56ed18"
+    },
+    {
+      "key": "R",
+      "ref": "R47",
+      "value": "100",
+      "nets": {
+        "1": "IMON_Y",
+        "2": "ISENSE_Y"
+      },
+      "x": 31.0,
+      "y": 22.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "0b0ec96e-72d4-5265-bc0c-62836f1a8204"
+    },
+    {
+      "key": "C",
+      "ref": "C22",
+      "value": "1n",
+      "nets": {
+        "1": "ISENSE_Y",
+        "2": "GND"
+      },
+      "x": 29.0,
+      "y": 22.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "57371e28-10cc-5e1b-af2a-786f53455993"
+    },
+    {
+      "key": "C",
+      "ref": "C23",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 35.0,
+      "y": 27.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "615af926-bfd8-5fcf-9ec8-79feab25fd84"
+    },
+    {
+      "key": "DRV",
+      "ref": "U9",
+      "value": "DRV8837DSGR",
+      "nets": {
+        "1": "VBUS",
+        "2": "Z_OUT1",
+        "3": "Z_OUT2",
+        "4": "GND",
+        "5": "TX_Z_B",
+        "6": "TX_Z_A",
+        "7": "TX_ENABLE",
+        "8": "3V3_SENSOR",
+        "9": "GND"
+      },
+      "x": 45.0,
+      "y": 33.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "mpn": "DRV8837DSGR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "c44d6807-e747-5277-9fc5-cccb078d05df"
+    },
+    {
+      "key": "C",
+      "ref": "C24",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 31.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "36e55f23-cf59-5228-9a02-842e634a3b89"
+    },
+    {
+      "key": "C",
+      "ref": "C25",
+      "value": "1u",
+      "nets": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 33.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1u",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "b0484842-23a3-5885-998a-a94bfe2b1084"
+    },
+    {
+      "key": "R",
+      "ref": "R48",
+      "value": "47 1W 1%",
+      "nets": {
+        "1": "Z_OUT1",
+        "2": "Z_COILP"
+      },
+      "x": 44.0,
+      "y": 29.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_2512_6332Metric",
+      "mpn": "FRR2512F47R0TS",
+      "note": "C49196864; 47 ohm 1W 1%, 2512.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "51aace90-632f-5439-a826-c32056924382"
+    },
+    {
+      "key": "R",
+      "ref": "R49",
+      "value": "0.2 0.1W 1%",
+      "nets": {
+        "1": "Z_COILN",
+        "2": "Z_OUT2"
+      },
+      "x": 41.0,
+      "y": 33.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RL0603FR-070R2L",
+      "note": "C723543; 0.2 ohm 0.1W 1%; calculated nominal loss <1.8mW, static shorted-coil case 2.53mW.",
+      "group": "Magnetic Source Drivers",
+      "uuid": "4e65a6e4-97df-5242-827d-2ff6a1436ccb"
+    },
+    {
+      "key": "CSA",
+      "ref": "U12",
+      "value": "INA240A1PWR",
+      "nets": {
+        "2": "Z_COILN",
+        "3": "Z_OUT2",
+        "4": "GND",
+        "5": "3V3_SENSOR",
+        "6": "GND",
+        "7": "3V3_SENSOR",
+        "8": "IMON_Z"
+      },
+      "x": 35.0,
+      "y": 33.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_SO:TSSOP-8_4.4x3mm_P0.65mm",
+      "mpn": "INA240A1PWR",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "325d11a8-50ab-5efd-b0ff-cc474d51c9b6"
+    },
+    {
+      "key": "R",
+      "ref": "R50",
+      "value": "100",
+      "nets": {
+        "1": "IMON_Z",
+        "2": "ISENSE_Z"
+      },
+      "x": 31.0,
+      "y": 31.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "9909c19d-028c-56fa-8233-843c2ba3a0e2"
+    },
+    {
+      "key": "C",
+      "ref": "C26",
+      "value": "1n",
+      "nets": {
+        "1": "ISENSE_Z",
+        "2": "GND"
+      },
+      "x": 29.0,
+      "y": 31.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "1n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "6333fad2-d964-59b1-9f3c-f2bee5cb6be6"
+    },
+    {
+      "key": "C",
+      "ref": "C27",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 35.0,
+      "y": 36.0,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "bb31cf56-5883-5812-87a9-63546e106da8"
+    },
+    {
+      "key": "R",
+      "ref": "R51",
+      "value": "100k",
+      "nets": {
+        "1": "TX_ENABLE",
+        "2": "GND"
+      },
+      "x": 48.0,
+      "y": 38.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "fced1fd5-14bb-5af9-8194-df34c6b99fa3"
+    },
+    {
+      "key": "J6",
+      "ref": "J9",
+      "value": "3-axis source",
+      "nets": {
+        "1": "X_COILP",
+        "2": "X_COILN",
+        "3": "Y_COILP",
+        "4": "Y_COILN",
+        "5": "Z_COILP",
+        "6": "Z_COILN"
+      },
+      "x": 44.0,
+      "y": 44.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical",
+      "mpn": "BM06B-SRSS-TB(LF)(SN)",
+      "note": "",
+      "group": "Magnetic Source Drivers",
+      "uuid": "c651de5e-e39b-5e9f-bf51-70f127695a8f"
+    },
+    {
+      "key": "SW",
+      "ref": "SW1",
+      "value": "B3U-1000P",
+      "nets": {
+        "1": "3V3",
+        "2": "BOOT0"
+      },
+      "x": 35.0,
+      "y": 38.8,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "mpn": "B3U-1000P",
+      "note": "",
+      "group": "USB recovery",
+      "uuid": "7eaf91ff-e1f0-52c5-a49c-c777f3802663"
+    },
+    {
+      "key": "SW",
+      "ref": "SW2",
+      "value": "B3U-1000P",
+      "nets": {
+        "1": "NRST",
+        "2": "GND"
+      },
+      "x": 35.0,
+      "y": 44.5,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Button_Switch_SMD:SW_SPST_B3U-1000P",
+      "mpn": "B3U-1000P",
+      "note": "",
+      "group": "USB recovery",
+      "uuid": "0e315c5e-efdd-56d0-bd49-916f00d3bdc0"
+    },
+    {
+      "key": "R",
+      "ref": "R52",
+      "value": "10k",
+      "nets": {
+        "1": "BOOT0",
+        "2": "GND"
+      },
+      "x": 39.0,
+      "y": 37.0,
+      "angle": 0.0,
+      "side": "F",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "10k",
+      "note": "",
+      "group": "USB recovery",
+      "uuid": "577aa4aa-1e06-5198-b9c1-db51d0547f8f"
+    },
+    {
+      "key": "LOADSW",
+      "ref": "U14",
+      "value": "TPS22919DCKR",
+      "nets": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "SENSOR_ENABLE",
+        "5": "3V3_SENSOR",
+        "6": "3V3_SENSOR"
+      },
+      "x": 20.5,
+      "y": 37,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "mpn": "TPS22919DCKR",
+      "note": "C2149796; default OFF switched sensing rail. QOD tied to output. Firmware must prevent GPIO back-power.",
+      "group": "Power USB",
+      "uuid": "6e6a0bd8-012b-568a-9522-a1c635bcc057"
+    },
+    {
+      "key": "C",
+      "ref": "C28",
+      "value": "100n",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "x": 17.7,
+      "y": 37,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "88c44fca-b530-5cc1-8168-30e7bf83c547"
+    },
+    {
+      "key": "C",
+      "ref": "C29",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_SENSOR",
+        "2": "GND"
+      },
+      "x": 23.3,
+      "y": 37,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "100n",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "4bacadb9-41be-5375-b04a-4bc2e6e76c88"
+    },
+    {
+      "key": "R",
+      "ref": "R53",
+      "value": "100k",
+      "nets": {
+        "1": "SENSOR_ENABLE",
+        "2": "GND"
+      },
+      "x": 20.5,
+      "y": 39,
+      "angle": 180.0,
+      "side": "B",
+      "fp": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "100k",
+      "note": "",
+      "group": "Power USB",
+      "uuid": "9cefbcdf-7823-53fc-a9a4-b2d9602628a4"
+    }
+  ],
+  "bus": {
+    "1": "3V3",
+    "2": "GND",
+    "3": "CLK",
+    "4": "GND",
+    "5": "SCLK",
+    "6": "MOSI",
+    "7": "GND",
+    "8": "MISO",
+    "9": "CS",
+    "10": "DRDY",
+    "11": "SYNC",
+    "12": "GND"
+  }
+}

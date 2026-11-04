@@ -1,0 +1,2 @@
+(version 1)
+(rule "Gold contact 0.20 mm setback per JLC FPC capability" (condition "A.memberOfFootprint('J1')") (constraint edge_clearance (min 0.2mm)))
